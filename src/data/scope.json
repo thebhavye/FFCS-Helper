@@ -1,0 +1,6914 @@
+{
+  "name": "SCOPE",
+  "subjects": [
+    {
+      "code": "Probability",
+      "name": "Probability",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "prob-ezhilmaran-d",
+          "name": "EZHILMARAN D",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L1",
+            "L2"
+          ],
+          "theoryRoom": "PRP201",
+          "labRoom": "PRP201"
+        },
+        {
+          "id": "prob-gorintla-sucharitha",
+          "name": "GORINTLA SUCHARITHA",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "PRP203",
+          "labRoom": "PRP203"
+        },
+        {
+          "id": "prob-padigepati-naveen",
+          "name": "PADIGEPATI NAVEEN",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "PRP205",
+          "labRoom": "PRP205"
+        },
+        {
+          "id": "prob-gowsalya-m",
+          "name": "GOWSALYA M",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L3",
+            "L4"
+          ],
+          "theoryRoom": "PRP207",
+          "labRoom": "PRP207"
+        },
+        {
+          "id": "prob-sujasree-m",
+          "name": "SUJASREE M",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "PRP209",
+          "labRoom": "PRP207"
+        },
+        {
+          "id": "prob-ramu-geddavalasa",
+          "name": "RAMU GEDDAVALASA",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L57",
+            "L58"
+          ],
+          "theoryRoom": "PRP211",
+          "labRoom": "PRP207"
+        },
+        {
+          "id": "prob-kuvar-satya-singh",
+          "name": "KUVAR SATYA SINGH",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L59",
+            "L60"
+          ],
+          "theoryRoom": "PRP213",
+          "labRoom": "PRP207"
+        }
+      ]
+    },
+    {
+      "code": "Computer Architecture",
+      "name": "Computer Architecture",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "ca-vijaya-kumar-k",
+          "name": "VIJAYA KUMAR K",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-brisilla-r-m",
+          "name": "BRISILLA R M",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-sivakumar-n",
+          "name": "SIVAKUMAR N",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-karthikeyan-a",
+          "name": "KARTHIKEYAN A",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-naga-raja-g",
+          "name": "NAGA RAJA G",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-sreethar-s",
+          "name": "SREETHAR S",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-berlin-m-a",
+          "name": "BERLIN M A",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-sairabanu-j",
+          "name": "SAIRABANU J",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-venkata-lakshmi-narayana-k",
+          "name": "VENKATA LAKSHMI NARAYANA K",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-narayanamoorthi-m",
+          "name": "NARAYANAMOORTHI M",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-mohan-kumar-p",
+          "name": "MOHAN KUMAR P",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-selvi-m",
+          "name": "SELVI M",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-jayakumar-k",
+          "name": "JAYAKUMAR K",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "PRP208"
+        },
+        {
+          "id": "ca-keerthika-p",
+          "name": "KEERTHIKA P",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "PRP208"
+        }
+      ]
+    },
+    {
+      "code": "MPMC",
+      "name": "MPMC",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "mpmc-sanjay-kumar-singh",
+          "name": "SANJAY KUMAR SINGH",
+          "theorySlots": [
+            "C1",
+            "TC1"
+          ],
+          "labSlots": [
+            "L31",
+            "L32"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "mpmc-arun-dev-dhar-dwivedi",
+          "name": "ARUN DEV DHAR DWIVEDI",
+          "theorySlots": [
+            "C1",
+            "TC1"
+          ],
+          "labSlots": [
+            "L33",
+            "L34"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "mpmc-biswajit-dwivedy",
+          "name": "BISWAJIT DWIVEDY",
+          "theorySlots": [
+            "C1",
+            "TC1"
+          ],
+          "labSlots": [
+            "L35",
+            "L36"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "mpmc-vetriveeran-rajamani",
+          "name": "VETRIVEERAN RAJAMANI",
+          "theorySlots": [
+            "C1",
+            "TC1"
+          ],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "mpmc-prachi-sharma",
+          "name": "PRACHI SHARMA",
+          "theorySlots": [
+            "C1",
+            "TC1"
+          ],
+          "labSlots": [
+            "L39",
+            "L40"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "mpmc-shanidul-hoque",
+          "name": "SHANIDUL HOQUE",
+          "theorySlots": [
+            "C1",
+            "TC1"
+          ],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "mpmc-sultan-mahmood-chowdhury",
+          "name": "SULTAN MAHMOOD CHOWDHURY",
+          "theorySlots": [
+            "C1",
+            "TC1"
+          ],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "mpmc-gautam-narayan",
+          "name": "GAUTAM NARAYAN",
+          "theorySlots": [
+            "C2",
+            "TC2"
+          ],
+          "labSlots": [
+            "L3",
+            "L4"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "mpmc-indrasen-singh",
+          "name": "INDRASEN SINGH",
+          "theorySlots": [
+            "C2",
+            "TC2"
+          ],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        }
+      ]
+    },
+    {
+      "code": "DAA",
+      "name": "DAA",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "daa-gayathri-p",
+          "name": "GAYATHRI P",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-joshva-devadas-t",
+          "name": "JOSHVA DEVADAS T",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-sharief-basha-s-a",
+          "name": "SHARIEF BASHA S",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L49",
+            "L50"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-ilanthenral-k-p-s-k",
+          "name": "ILANTHENRAL K P S K",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-iyappan-p-a",
+          "name": "IYAPPAN P",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L53",
+            "L54"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-karthik-g-m",
+          "name": "KARTHIK G M",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-rajesh-a",
+          "name": "RAJESH A",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L57",
+            "L58"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-varalakshmi-m",
+          "name": "VARALAKSHMI M",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L1",
+            "L2"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-sharief-basha-s-b",
+          "name": "SHARIEF BASHA S",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L3",
+            "L4"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-jenicka-s",
+          "name": "JENICKA S",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L5",
+            "L6"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-iyappan-p-b",
+          "name": "IYAPPAN P",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L7",
+            "L8"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-shalini-l",
+          "name": "SHALINI L",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-lakshmi-s",
+          "name": "LAKSHMI S",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        },
+        {
+          "id": "daa-niha-k",
+          "name": "NIHA K",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "PRP208",
+          "labRoom": "PRP211"
+        }
+      ]
+    },
+    {
+      "code": "BCHI101L",
+      "name": "BCHI101L - Chinese I",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bchi101l-1-khana-baidya",
+          "name": "KHANA BAIDYA",
+          "slots": [
+            "G1"
+          ],
+          "room": "SJT604"
+        },
+        {
+          "id": "bchi101l-2-khana-baidya",
+          "name": "KHANA BAIDYA",
+          "slots": [
+            "D1"
+          ],
+          "room": "TT305"
+        },
+        {
+          "id": "bchi101l-3-khana-baidya",
+          "name": "KHANA BAIDYA",
+          "slots": [
+            "E2"
+          ],
+          "room": "SJT508"
+        }
+      ]
+    },
+    {
+      "code": "BFRE101L",
+      "name": "BFRE101L - French I",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bfre101l-1-coumaran-g",
+          "name": "COUMARAN G",
+          "slots": [
+            "E1"
+          ],
+          "room": "PRP736"
+        },
+        {
+          "id": "bfre101l-2-visalakshi-r",
+          "name": "VISALAKSHI R",
+          "slots": [
+            "D2"
+          ],
+          "room": "SMV116"
+        },
+        {
+          "id": "bfre101l-3-visalakshi-r",
+          "name": "VISALAKSHI R",
+          "slots": [
+            "F2"
+          ],
+          "room": "CDMM405"
+        },
+        {
+          "id": "bfre101l-4-shantanu-shandilya",
+          "name": "SHANTANU SHANDILYA",
+          "slots": [
+            "D2"
+          ],
+          "room": "SJT627"
+        },
+        {
+          "id": "bfre101l-5-calaivanane-r",
+          "name": "CALAIVANANE R",
+          "slots": [
+            "F1"
+          ],
+          "room": "PRP629"
+        },
+        {
+          "id": "bfre101l-6-antoinette-daniel",
+          "name": "ANTOINETTE DANIEL",
+          "slots": [
+            "F1"
+          ],
+          "room": "SJT508"
+        },
+        {
+          "id": "bfre101l-7-shantanu-shandilya",
+          "name": "SHANTANU SHANDILYA",
+          "slots": [
+            "G1"
+          ],
+          "room": "SJT617"
+        },
+        {
+          "id": "bfre101l-8-malathy-o",
+          "name": "MALATHY O",
+          "slots": [
+            "A2"
+          ],
+          "room": "SMV219"
+        },
+        {
+          "id": "bfre101l-9-visalakshi-r",
+          "name": "VISALAKSHI R",
+          "slots": [
+            "G1"
+          ],
+          "room": "PRP372"
+        }
+      ]
+    },
+    {
+      "code": "BGER101L",
+      "name": "BGER101L - German I",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bger101l-1-amit-kumar-saini",
+          "name": "AMIT KUMAR SAINI",
+          "slots": [
+            "B2"
+          ],
+          "room": "SMV214"
+        },
+        {
+          "id": "bger101l-2-abhijit-kr-darbey",
+          "name": "ABHIJIT KR DARBEY",
+          "slots": [
+            "B2"
+          ],
+          "room": "SMV219"
+        },
+        {
+          "id": "bger101l-3-adaikalam-arulanandam",
+          "name": "ADAIKALAM ARULANANDAM",
+          "slots": [
+            "F1"
+          ],
+          "room": "SJTG24"
+        },
+        {
+          "id": "bger101l-4-dhananjay-kumar",
+          "name": "DHANANJAY KUMAR",
+          "slots": [
+            "G1"
+          ],
+          "room": "PRP339"
+        },
+        {
+          "id": "bger101l-5-arati-kumari",
+          "name": "ARATI KUMARI",
+          "slots": [
+            "E1"
+          ],
+          "room": "PRP670"
+        },
+        {
+          "id": "bger101l-6-arati-kumari",
+          "name": "ARATI KUMARI",
+          "slots": [
+            "F2"
+          ],
+          "room": "SJT603"
+        },
+        {
+          "id": "bger101l-7-abhijit-kr-darbey",
+          "name": "ABHIJIT KR DARBEY",
+          "slots": [
+            "G1"
+          ],
+          "room": "PRP379"
+        }
+      ]
+    },
+    {
+      "code": "Database Systems (course code not listed in source)",
+      "name": "Database Systems (course code not listed in source)",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-1-lydia-jane-g",
+          "name": "LYDIA JANE G",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT301",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-2-rajesh-kumar-n",
+          "name": "RAJESH KUMAR N",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT302",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-3-sudhakar-p",
+          "name": "SUDHAKAR P",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT305",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-4-kanagaraj-k",
+          "name": "KANAGARAJ K",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT304",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-5-kanagaraj-k",
+          "name": "KANAGARAJ K",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT304",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-6-sudhakar-p",
+          "name": "SUDHAKAR P",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT305",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-7-lydia-jane-g",
+          "name": "LYDIA JANE G",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT301",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-8-rajesh-kumar-n",
+          "name": "RAJESH KUMAR N",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT302",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-9-sangeetha-s",
+          "name": "SANGEETHA S",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT303",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-10-saurabh-agrawal",
+          "name": "SAURABH AGRAWAL",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT308",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-11-sangeetha-s",
+          "name": "SANGEETHA S",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT303",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-12-sivakumar-v",
+          "name": "SIVAKUMAR V",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT401",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-13-nithya-n-s",
+          "name": "NITHYA N S",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT315",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-14-sivakumar-v",
+          "name": "SIVAKUMAR V",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT401",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-15-saurabh-agrawal",
+          "name": "SAURABH AGRAWAL",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT308",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-16-sridevi-s",
+          "name": "SRIDEVI S",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311A",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-17-deepika-j",
+          "name": "DEEPIKA J",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-18-deepika-j",
+          "name": "DEEPIKA J",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-19-sridevi-s",
+          "name": "SRIDEVI S",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311A",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-20-nithya-n-s",
+          "name": "NITHYA N S",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT315",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-21-siva-sankari-s",
+          "name": "SIVA SANKARI S",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT402",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-22-siva-sankari-s",
+          "name": "SIVA SANKARI S",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT402",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-23-karthik-g-m",
+          "name": "KARTHIK G M",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT403",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-24-poornima-n",
+          "name": "POORNIMA N",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT404",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-25-ilayaraja-v",
+          "name": "ILAYARAJA V",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT405",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-26-baiju-b-v",
+          "name": "BAIJU B V",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT407",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-27-poornima-n",
+          "name": "POORNIMA N",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT404",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-28-ilayaraja-v",
+          "name": "ILAYARAJA V",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT405",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-29-baiju-b-v",
+          "name": "BAIJU B V",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT407",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-30-justin-gopinath-a",
+          "name": "JUSTIN GOPINATH A",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT409",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-31-joshva-devadas-t",
+          "name": "JOSHVA DEVADAS T",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT415",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-32-saraswathi-priyadharshini-a",
+          "name": "SARASWATHI PRIYADHARSHINI A",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT408",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-33-justin-gopinath-a",
+          "name": "JUSTIN GOPINATH A",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT409",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-34-anand-bihari",
+          "name": "ANAND BIHARI",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT421",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-35-shashank-mouli-satapathy",
+          "name": "SHASHANK MOULI SATAPATHY",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT422",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-36-saraswathi-priyadharshini-a",
+          "name": "SARASWATHI PRIYADHARSHINI A",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT408",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-37-lokesh-kumar-r",
+          "name": "LOKESH KUMAR R",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT415",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-38-anand-bihari",
+          "name": "ANAND BIHARI",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT421",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-39-nageshwar-rao-ragi",
+          "name": "NAGESHWAR RAO RAGI",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT424",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-40-ramani-s",
+          "name": "RAMANI S",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT502",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-41-navamani-t-m",
+          "name": "NAVAMANI T M",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT422",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-42-anuradha-d",
+          "name": "ANURADHA D",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT423",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-43-anuradha-d",
+          "name": "ANURADHA D",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT423",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-44-monash-p",
+          "name": "MONASH P",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT424",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-45-akila-victor",
+          "name": "AKILA VICTOR",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT501",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-46-sathyaraj-r",
+          "name": "SATHYARAJ R",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT501",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-47-jayalakshmi-m",
+          "name": "JAYALAKSHMI M",
+          "theorySlots": [
+            "D1",
+            "TD1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT502",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-theory-48-karthik-g-m",
+          "name": "KARTHIK G M",
+          "theorySlots": [
+            "D2",
+            "TD2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT403",
+          "labRoom": ""
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-1-ramani-s",
+          "name": "RAMANI S",
+          "theorySlots": [],
+          "labSlots": [
+            "L21",
+            "L22"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-2-sangeetha-s",
+          "name": "SANGEETHA S",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-3-baiju-b-v",
+          "name": "BAIJU B V",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-4-baiju-b-v",
+          "name": "BAIJU B V",
+          "theorySlots": [],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-5-jayalakshmi-m",
+          "name": "JAYALAKSHMI M",
+          "theorySlots": [],
+          "labSlots": [
+            "L57",
+            "L58"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-6-kanagaraj-k",
+          "name": "KANAGARAJ K",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-7-kanagaraj-k",
+          "name": "KANAGARAJ K",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-8-siva-sankari-s",
+          "name": "SIVA SANKARI S",
+          "theorySlots": [],
+          "labSlots": [
+            "L5",
+            "L6"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-9-joshva-devadas-t",
+          "name": "JOSHVA DEVADAS T",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-10-siva-sankari-s",
+          "name": "SIVA SANKARI S",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-11-navamani-t-m",
+          "name": "NAVAMANI T M",
+          "theorySlots": [],
+          "labSlots": [
+            "L33",
+            "L34"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-12-shashank-mouli-satapathy",
+          "name": "SHASHANK MOULI SATAPATHY",
+          "theorySlots": [],
+          "labSlots": [
+            "L3",
+            "L4"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-13-sathyaraj-r",
+          "name": "SATHYARAJ R",
+          "theorySlots": [],
+          "labSlots": [
+            "L19",
+            "L20"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-14-monash-p",
+          "name": "MONASH P",
+          "theorySlots": [],
+          "labSlots": [
+            "L33",
+            "L34"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-15-nageshwar-rao-ragi",
+          "name": "NAGESHWAR RAO RAGI",
+          "theorySlots": [],
+          "labSlots": [
+            "L5",
+            "L6"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-16-akila-victor",
+          "name": "AKILA VICTOR",
+          "theorySlots": [],
+          "labSlots": [
+            "L33",
+            "L34"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-17-lydia-jane-g",
+          "name": "LYDIA JANE G",
+          "theorySlots": [],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-18-lydia-jane-g",
+          "name": "LYDIA JANE G",
+          "theorySlots": [],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-19-lokesh-kumar-r",
+          "name": "LOKESH KUMAR R",
+          "theorySlots": [],
+          "labSlots": [
+            "L19",
+            "L20"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-20-sangeetha-s",
+          "name": "SANGEETHA S",
+          "theorySlots": [],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-21-anand-bihari",
+          "name": "ANAND BIHARI",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-22-anand-bihari",
+          "name": "ANAND BIHARI",
+          "theorySlots": [],
+          "labSlots": [
+            "L21",
+            "L22"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-23-rajesh-kumar-n",
+          "name": "RAJESH KUMAR N",
+          "theorySlots": [],
+          "labSlots": [
+            "L7",
+            "L8"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-24-rajesh-kumar-n",
+          "name": "RAJESH KUMAR N",
+          "theorySlots": [],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-25-ilayaraja-v",
+          "name": "ILAYARAJA V",
+          "theorySlots": [],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-26-ilayaraja-v",
+          "name": "ILAYARAJA V",
+          "theorySlots": [],
+          "labSlots": [
+            "L35",
+            "L36"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-27-poornima-n",
+          "name": "POORNIMA N",
+          "theorySlots": [],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-28-saraswathi-priyadharshini-a",
+          "name": "SARASWATHI PRIYADHARSHINI A",
+          "theorySlots": [],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-29-anuradha-d",
+          "name": "ANURADHA D",
+          "theorySlots": [],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-30-justin-gopinath-a",
+          "name": "JUSTIN GOPINATH A",
+          "theorySlots": [],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-31-justin-gopinath-a",
+          "name": "JUSTIN GOPINATH A",
+          "theorySlots": [],
+          "labSlots": [
+            "L7",
+            "L8"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-32-anuradha-d",
+          "name": "ANURADHA D",
+          "theorySlots": [],
+          "labSlots": [
+            "L21",
+            "L22"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-33-saraswathi-priyadharshini-a",
+          "name": "SARASWATHI PRIYADHARSHINI A",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-34-sivakumar-v",
+          "name": "SIVAKUMAR V",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-35-sivakumar-v",
+          "name": "SIVAKUMAR V",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT417"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-36-poornima-n",
+          "name": "POORNIMA N",
+          "theorySlots": [],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP352"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-37-karthik-g-m",
+          "name": "KARTHIK G M",
+          "theorySlots": [],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-38-karthik-g-m",
+          "name": "KARTHIK G M",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-39-nithya-n-s",
+          "name": "NITHYA N S",
+          "theorySlots": [],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-40-saurabh-agrawal",
+          "name": "SAURABH AGRAWAL",
+          "theorySlots": [],
+          "labSlots": [
+            "L57",
+            "L58"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-41-saurabh-agrawal",
+          "name": "SAURABH AGRAWAL",
+          "theorySlots": [],
+          "labSlots": [
+            "L21",
+            "L22"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP352"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-42-deepika-j",
+          "name": "DEEPIKA J",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP352"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-43-deepika-j",
+          "name": "DEEPIKA J",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-44-nithya-n-s",
+          "name": "NITHYA N S",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP352"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-45-sridevi-s",
+          "name": "SRIDEVI S",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-46-sridevi-s",
+          "name": "SRIDEVI S",
+          "theorySlots": [],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-47-sudhakar-p",
+          "name": "SUDHAKAR P",
+          "theorySlots": [],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP352"
+        },
+        {
+          "id": "database-systems-course-code-not-listed-in-source-lab-48-sudhakar-p",
+          "name": "SUDHAKAR P",
+          "theorySlots": [],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP352"
+        }
+      ]
+    },
+    {
+      "code": "Operating Systems (course code not listed in source)",
+      "name": "Operating Systems (course code not listed in source)",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-1-manivannan-p",
+          "name": "MANIVANNAN P",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT301",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-2-mohankumar-b",
+          "name": "MOHANKUMAR B",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT308",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-3-narayanan-prasan",
+          "name": "NARAYANAN PRASAN",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT302",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-4-arthi-m",
+          "name": "ARTHI M",
+          "theorySlots": [
+            "THB2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT302",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-5-manivannan-p",
+          "name": "MANIVANNAN P",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT301",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-6-thanuja-r",
+          "name": "THANUJA R",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT303",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-7-dhivyaa-c-r",
+          "name": "DHIVYAA C R",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT305",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-8-dhivyaa-c-r",
+          "name": "DHIVYAA C R",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT305",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-9-mohankumar-b",
+          "name": "MOHANKUMAR B",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT308",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-10-manikandan-k",
+          "name": "MANIKANDAN K",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT303",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-11-sri-preethaa-k-r",
+          "name": "SRI PREETHAA K R",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT304",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-12-sri-preethaa-k-r",
+          "name": "SRI PREETHAA K R",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT304",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-13-suresh-p",
+          "name": "SURESH P",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT401",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-14-keerthika-p",
+          "name": "KEERTHIKA P",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT402",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-15-sivaprakash-s",
+          "name": "SIVAPRAKASH S",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT403",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-16-niha-k",
+          "name": "NIHA K",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT405",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-17-naveenkumar-j",
+          "name": "NAVEENKUMAR J",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT404",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-18-thirunavukkarasan-m",
+          "name": "THIRUNAVUKKARASAN M",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311A",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-19-suresh-p",
+          "name": "SURESH P",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT401",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-20-sivaprakash-s",
+          "name": "SIVAPRAKASH S",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT403",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-21-thirunavukkarasan-m",
+          "name": "THIRUNAVUKKARASAN M",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311A",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-22-mohana-sundari-l",
+          "name": "MOHANA SUNDARI L",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT315",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-23-mohana-sundari-l",
+          "name": "MOHANA SUNDARI L",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT315",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-24-niha-k",
+          "name": "NIHA K",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT405",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-25-keerthika-p",
+          "name": "KEERTHIKA P",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT402",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-26-anuradha-g",
+          "name": "ANURADHA G",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT404",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-27-perepi-rajarajeswari",
+          "name": "PEREPI RAJARAJESWARI",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT407",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-28-perepi-rajarajeswari",
+          "name": "PEREPI RAJARAJESWARI",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT407",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-29-ruby-d",
+          "name": "RUBY D",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT415",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-30-jagalingam-p",
+          "name": "JAGALINGAM P",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT421",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-31-nagaraja-rao-a",
+          "name": "NAGARAJA RAO A",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT501",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-32-manoov-r",
+          "name": "MANOOV R",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT422",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-33-hiteshwar-kumar-azad",
+          "name": "HITESHWAR KUMAR AZAD",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT408",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-34-ruby-d",
+          "name": "RUBY D",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT415",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-35-manoov-r",
+          "name": "MANOOV R",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT422",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-36-vijaya-kumar-k",
+          "name": "VIJAYA KUMAR K",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT424",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-37-hiteshwar-kumar-azad",
+          "name": "HITESHWAR KUMAR AZAD",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT408",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-38-sivakumar-n",
+          "name": "SIVAKUMAR. N",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT409",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-39-satyajit-mohanty",
+          "name": "SATYAJIT MOHANTY",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT409",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-40-jagalingam-p",
+          "name": "JAGALINGAM P",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT421",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-41-ushus-elizebeth-zachariah",
+          "name": "USHUS ELIZEBETH ZACHARIAH",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT423",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-42-anisha-m-lal",
+          "name": "ANISHA M. LAL",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT424",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-43-venkata-lakshmi-narayana-k",
+          "name": "VENKATA LAKSHMI NARAYANA K",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT501",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-44-ushus-elizebeth-zachariah",
+          "name": "USHUS ELIZEBETH ZACHARIAH",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT423",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-45-anto-s",
+          "name": "ANTO S",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT502",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-46-ezhil-arasi-v",
+          "name": "EZHIL ARASI V",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-47-ezhil-arasi-v",
+          "name": "EZHIL ARASI V",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-theory-48-geraldine-bessie-amali-d",
+          "name": "GERALDINE BESSIE AMALI D",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT513",
+          "labRoom": ""
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-1-anisha-m-lal",
+          "name": "ANISHA M. LAL",
+          "theorySlots": [],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-2-sivaprakash-s",
+          "name": "SIVAPRAKASH S",
+          "theorySlots": [],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-3-suresh-p",
+          "name": "SURESH P",
+          "theorySlots": [],
+          "labSlots": [
+            "L31",
+            "L32"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-4-sivaprakash-s",
+          "name": "SIVAPRAKASH S",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-5-keerthika-p",
+          "name": "KEERTHIKA P",
+          "theorySlots": [],
+          "labSlots": [
+            "L39",
+            "L40"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-6-suresh-p",
+          "name": "SURESH P",
+          "theorySlots": [],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-7-keerthika-p",
+          "name": "KEERTHIKA P",
+          "theorySlots": [],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-8-mohankumar-b",
+          "name": "MOHANKUMAR B",
+          "theorySlots": [],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-9-mohankumar-b",
+          "name": "MOHANKUMAR B",
+          "theorySlots": [],
+          "labSlots": [
+            "L39",
+            "L40"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-10-vijaya-kumar-k",
+          "name": "VIJAYA KUMAR K",
+          "theorySlots": [],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-11-ushus-elizebeth-zachariah",
+          "name": "USHUS ELIZEBETH ZACHARIAH",
+          "theorySlots": [],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-12-manivannan-p",
+          "name": "MANIVANNAN P",
+          "theorySlots": [],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-13-manivannan-p",
+          "name": "MANIVANNAN P",
+          "theorySlots": [],
+          "labSlots": [
+            "L29",
+            "L30"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-14-ushus-elizebeth-zachariah",
+          "name": "USHUS ELIZEBETH ZACHARIAH",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-15-sri-preethaa-k-r",
+          "name": "SRI PREETHAA K R",
+          "theorySlots": [],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-16-sri-preethaa-k-r",
+          "name": "SRI PREETHAA K R",
+          "theorySlots": [],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-17-dhivyaa-c-r",
+          "name": "DHIVYAA C R",
+          "theorySlots": [],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-18-dhivyaa-c-r",
+          "name": "DHIVYAA C R",
+          "theorySlots": [],
+          "labSlots": [
+            "L39",
+            "L40"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-19-geraldine-bessie-amali-d",
+          "name": "GERALDINE BESSIE AMALI D",
+          "theorySlots": [],
+          "labSlots": [
+            "L3",
+            "L4"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-20-sivakumar-n",
+          "name": "SIVAKUMAR. N",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-21-naveenkumar-j",
+          "name": "NAVEENKUMAR J",
+          "theorySlots": [],
+          "labSlots": [
+            "L53",
+            "L54"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-22-satyajit-mohanty",
+          "name": "SATYAJIT MOHANTY",
+          "theorySlots": [],
+          "labSlots": [
+            "L7",
+            "L8"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-23-nagaraja-rao-a",
+          "name": "NAGARAJA RAO A",
+          "theorySlots": [],
+          "labSlots": [
+            "L21",
+            "L22"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-24-perepi-rajarajeswari",
+          "name": "PEREPI RAJARAJESWARI",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-25-anto-s",
+          "name": "ANTO S",
+          "theorySlots": [],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-26-perepi-rajarajeswari",
+          "name": "PEREPI RAJARAJESWARI",
+          "theorySlots": [],
+          "labSlots": [
+            "L31",
+            "L32"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-27-venkata-lakshmi-narayana-k",
+          "name": "VENKATA LAKSHMI NARAYANA K",
+          "theorySlots": [],
+          "labSlots": [
+            "L49",
+            "L50"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-28-ruby-d",
+          "name": "RUBY D",
+          "theorySlots": [],
+          "labSlots": [
+            "L57",
+            "L58"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP231"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-29-jagalingam-p",
+          "name": "JAGALINGAM P",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-30-manoov-r",
+          "name": "MANOOV R",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-31-manoov-r",
+          "name": "MANOOV R",
+          "theorySlots": [],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-32-jagalingam-p",
+          "name": "JAGALINGAM P",
+          "theorySlots": [],
+          "labSlots": [
+            "L31",
+            "L32"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-33-ruby-d",
+          "name": "RUBY D",
+          "theorySlots": [],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-34-hiteshwar-kumar-azad",
+          "name": "HITESHWAR KUMAR AZAD",
+          "theorySlots": [],
+          "labSlots": [
+            "L29",
+            "L30"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-35-hiteshwar-kumar-azad",
+          "name": "HITESHWAR KUMAR AZAD",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-36-niha-k",
+          "name": "NIHA K",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-37-niha-k",
+          "name": "NIHA K",
+          "theorySlots": [],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP352"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-38-mohana-sundari-l",
+          "name": "MOHANA SUNDARI L",
+          "theorySlots": [],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-39-anuradha-g",
+          "name": "ANURADHA G",
+          "theorySlots": [],
+          "labSlots": [
+            "L19",
+            "L20"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP135"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-40-ezhil-arasi-v",
+          "name": "EZHIL ARASI V",
+          "theorySlots": [],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-41-mohana-sundari-l",
+          "name": "MOHANA SUNDARI L",
+          "theorySlots": [],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-42-thanuja-r",
+          "name": "THANUJA R",
+          "theorySlots": [],
+          "labSlots": [
+            "L5",
+            "L6"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-43-manikandan-k",
+          "name": "MANIKANDAN K",
+          "theorySlots": [],
+          "labSlots": [
+            "L33",
+            "L34"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-44-ezhil-arasi-v",
+          "name": "EZHIL ARASI V",
+          "theorySlots": [],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP234"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-45-narayanan-prasan",
+          "name": "NARAYANAN PRASAN",
+          "theorySlots": [],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP233"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-46-thirunavukkarasan-m",
+          "name": "THIRUNAVUKKARASAN M",
+          "theorySlots": [],
+          "labSlots": [
+            "LOL27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-47-thirunavukkarasan-m",
+          "name": "THIRUNAVUKKARASAN M",
+          "theorySlots": [],
+          "labSlots": [
+            "L53",
+            "L54"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        },
+        {
+          "id": "operating-systems-course-code-not-listed-in-source-lab-48-arthi-m",
+          "name": "ARTHI M",
+          "theorySlots": [],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "",
+          "labRoom": "PRP232"
+        }
+      ]
+    },
+    {
+      "code": "BCSE305L",
+      "name": "BCSE305L - Embedded Systems",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bcse305l-1-konatham-sumalatha",
+          "name": "KONATHAM SUMALATHA",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SJT305"
+        }
+      ]
+    },
+    {
+      "code": "BCSE306L",
+      "name": "BCSE306L - Artificial Intelligence",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bcse306l-1-sharief-basha-s",
+          "name": "SHARIEF BASHA S",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT301"
+        },
+        {
+          "id": "bcse306l-2-athira-k",
+          "name": "ATHIRA K",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT303"
+        },
+        {
+          "id": "bcse306l-3-praveen-kumar-g",
+          "name": "PRAVEEN KUMAR G",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT304"
+        },
+        {
+          "id": "bcse306l-4-anand-bihari",
+          "name": "ANAND BIHARI",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT305"
+        },
+        {
+          "id": "bcse306l-5-jyotismita-chaki",
+          "name": "JYOTISMITA CHAKI",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT308"
+        },
+        {
+          "id": "bcse306l-6-balamurugan-r",
+          "name": "BALAMURUGAN R",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT311"
+        },
+        {
+          "id": "bcse306l-7-satyajit-das",
+          "name": "SATYAJIT DAS",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT304"
+        },
+        {
+          "id": "bcse306l-8-jagalingam-p",
+          "name": "JAGALINGAM P",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT305"
+        },
+        {
+          "id": "bcse306l-9-sekarapandian-n",
+          "name": "SEKARAPANDIAN N",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT311"
+        },
+        {
+          "id": "bcse306l-10-navamani-t-m",
+          "name": "NAVAMANI T M",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT311A"
+        },
+        {
+          "id": "bcse306l-11-shashank-mouli-satapathy",
+          "name": "SHASHANK MOULI SATAPATHY",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT315"
+        },
+        {
+          "id": "bcse306l-12-priya-g",
+          "name": "PRIYA G",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT315"
+        },
+        {
+          "id": "bcse306l-13-mohan-kumar-p",
+          "name": "MOHAN KUMAR P",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT401"
+        },
+        {
+          "id": "bcse306l-14-thirumoorthy-k",
+          "name": "THIRUMOORTHY K",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT403"
+        },
+        {
+          "id": "bcse306l-15-nagaraja-rao-a",
+          "name": "NAGARAJA RAO A",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT404"
+        },
+        {
+          "id": "bcse306l-16-rajakumar-k",
+          "name": "RAJAKUMAR K",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT401"
+        },
+        {
+          "id": "bcse306l-17-nageshwar-rao-ragi",
+          "name": "NAGESHWAR RAO RAGI",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT405"
+        },
+        {
+          "id": "bcse306l-18-chiranjeevi-c",
+          "name": "CHIRANJEEVI C",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT407"
+        },
+        {
+          "id": "bcse306l-19-vijayashree-j",
+          "name": "VIJAYASHREE J",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT408"
+        },
+        {
+          "id": "bcse306l-20-gladys-gnana-kiruba-b",
+          "name": "GLADYS GNANA KIRUBA B",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT415"
+        },
+        {
+          "id": "bcse306l-21-ilanthenral-k-p-s-k",
+          "name": "ILANTHENRAL K P S K",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT402"
+        },
+        {
+          "id": "bcse306l-22-nalliah-m",
+          "name": "NALLIAH M",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT311A"
+        },
+        {
+          "id": "bcse306l-23-rajeshkannan-r",
+          "name": "RAJESHKANNAN R",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT421"
+        },
+        {
+          "id": "bcse306l-24-thandeeswaran-r",
+          "name": "THANDEESWARAN R",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT403"
+        },
+        {
+          "id": "bcse306l-25-anuradha-d",
+          "name": "ANURADHA D",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT404"
+        },
+        {
+          "id": "bcse306l-26-akila-victor",
+          "name": "AKILA VICTOR",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT501"
+        },
+        {
+          "id": "bcse306l-27-ragavan-k",
+          "name": "RAGAVAN K",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT421"
+        },
+        {
+          "id": "bcse306l-28-jayashree-j",
+          "name": "JAYASHREE J",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT408"
+        },
+        {
+          "id": "bcse306l-29-naga-raja-g",
+          "name": "NAGA RAJA G",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT409"
+        },
+        {
+          "id": "bcse306l-30-viswanathan-p",
+          "name": "VISWANATHAN P",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT423"
+        },
+        {
+          "id": "bcse306l-31-malathi-m",
+          "name": "MALATHI M",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT302"
+        },
+        {
+          "id": "bcse306l-32-aarthy-s-l",
+          "name": "AARTHY S.L",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT409"
+        },
+        {
+          "id": "bcse306l-33-saravanaguru-ra-k",
+          "name": "SARAVANAGURU RA.K",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT424"
+        },
+        {
+          "id": "bcse306l-34-annapurna-jonnalagadda",
+          "name": "ANNAPURNA JONNALAGADDA",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT502"
+        },
+        {
+          "id": "bcse306l-35-saravanarajan-m-c",
+          "name": "SARAVANARAJAN M C",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT502"
+        },
+        {
+          "id": "bcse306l-36-kaspar-s",
+          "name": "KASPAR S",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT422"
+        },
+        {
+          "id": "bcse306l-37-rajay-vedaraj-i-s",
+          "name": "RAJAY VEDARAJ I S",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT423"
+        },
+        {
+          "id": "bcse306l-38-vijayanand-c",
+          "name": "VIJAYANAND C",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT501"
+        },
+        {
+          "id": "bcse306l-39-gunavathi-c",
+          "name": "GUNAVATHI C",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT424"
+        },
+        {
+          "id": "bcse306l-40-karthika-m-s",
+          "name": "KARTHIKA M S",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT415"
+        },
+        {
+          "id": "bcse306l-41-jaya-subalakshmi-r",
+          "name": "JAYA SUBALAKSHMI R",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT405"
+        },
+        {
+          "id": "bcse306l-42-tamizharasi-t",
+          "name": "TAMIZHARASI T",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT407"
+        },
+        {
+          "id": "bcse306l-43-samriddhi-sarkar",
+          "name": "SAMRIDDHI SARKAR",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT308"
+        },
+        {
+          "id": "bcse306l-44-raviteja-buddala",
+          "name": "RAVITEJA BUDDALA",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT303"
+        },
+        {
+          "id": "bcse306l-45-arpita-ghosh",
+          "name": "ARPITA GHOSH",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT302"
+        },
+        {
+          "id": "bcse306l-46-geraldine-bessie-amali-d",
+          "name": "GERALDINE BESSIE AMALI D",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT301"
+        },
+        {
+          "id": "bcse306l-47-ramesh-babu-vemuluri",
+          "name": "RAMESH BABU VEMULURI",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT422"
+        },
+        {
+          "id": "bcse306l-48-radhakrishnan-delhibabu",
+          "name": "RADHAKRISHNAN DELHIBABU",
+          "slots": [
+            "C2",
+            "TC2"
+          ],
+          "room": "SJT402"
+        }
+      ]
+    },
+    {
+      "code": "BCSE307L",
+      "name": "BCSE307L - Compiler Design",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "bcse307l-theory-1-jo-cheriyan",
+          "name": "JO CHERIYAN",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT303",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-2-sam-navin-m",
+          "name": "SAM NAVIN M",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT301",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-3-kirubanantham-p",
+          "name": "KIRUBANANTHAM P",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT302",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-4-nithya-k",
+          "name": "NITHYA K",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT304",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-5-nithya-k",
+          "name": "NITHYA K",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT304",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-6-banupriya-r",
+          "name": "BANUPRIYA R",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT305",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-7-mukhtar-ahmad-sofi",
+          "name": "MUKHTAR AHMAD SOFI",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT308",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-8-sam-navin-m",
+          "name": "SAM NAVIN M",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT301",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-9-naga-priyadarsini-r",
+          "name": "NAGA PRIYADARSINI R",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311A",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-10-bhawana-tyagi",
+          "name": "BHAWANA TYAGI",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-11-suganthini-c",
+          "name": "SUGANTHINI C",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT315",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-12-islabudeen-m",
+          "name": "ISLABUDEEN M",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT401",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-13-islabudeen-m",
+          "name": "ISLABUDEEN M",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT401",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-14-muthunagai-s-u",
+          "name": "MUTHUNAGAI S U",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT403",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-15-ranjithkumar-s",
+          "name": "RANJITHKUMAR S",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT404",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-16-arumuga-arun-r",
+          "name": "ARUMUGA ARUN R",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT405",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-17-banupriya-r",
+          "name": "BANUPRIYA R",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT305",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-18-mukhtar-ahmad-sofi",
+          "name": "MUKHTAR AHMAD SOFI",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT308",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-19-bhawana-tyagi",
+          "name": "BHAWANA TYAGI",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-20-naga-priyadarsini-r",
+          "name": "NAGA PRIYADARSINI R",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311A",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-21-muthunagai-s-u",
+          "name": "MUTHUNAGAI S U",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT403",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-22-umamaheswari-m",
+          "name": "UMAMAHESWARI M",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT407",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-23-kanagaraj-r",
+          "name": "KANAGARAJ R",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT415",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-24-bhuvaneswari-m",
+          "name": "BHUVANESWARI M",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT422",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-25-vishnu-priya-a",
+          "name": "VISHNU PRIYA A",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT424",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-26-sathiya-kumar-c",
+          "name": "SATHIYA KUMAR C",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT501",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-27-hariharan-r-l",
+          "name": "HARIHARAN R L",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT501",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-28-kannadasan-r",
+          "name": "KANNADASAN R",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT502",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-29-ranjithkumar-s",
+          "name": "RANJITHKUMAR S",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT404",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-30-arumuga-arun-r",
+          "name": "ARUMUGA ARUN R",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT405",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-31-umamaheswari-m",
+          "name": "UMAMAHESWARI M",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT407",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-32-baskaran-p",
+          "name": "BASKARAN P",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT408",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-33-baskaran-p",
+          "name": "BASKARAN P",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT408",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-34-sathya-k",
+          "name": "SATHYA K",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT409",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-35-sathya-k",
+          "name": "SATHYA K",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT409",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-36-krishnaraj-n",
+          "name": "KRISHNARAJ N",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT421",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-37-vetriselvi-t",
+          "name": "VETRISELVI T",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT423",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-38-krishnaraj-n",
+          "name": "KRISHNARAJ N",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT421",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-39-bhuvaneswari-m",
+          "name": "BHUVANESWARI M",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT422",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-40-kanagaraj-r",
+          "name": "KANAGARAJ R",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT415",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-41-vetriselvi-t",
+          "name": "VETRISELVI T",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT423",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-42-boominathan-p",
+          "name": "BOOMINATHAN P",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT502",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-43-shalini-l",
+          "name": "SHALINI L",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT603",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-44-nivitha-k",
+          "name": "NIVITHA K",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT402",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-45-nivitha-k",
+          "name": "NIVITHA K",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT402",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-46-shalini-l",
+          "name": "SHALINI L",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT513",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-47-suganthini-c",
+          "name": "SUGANTHINI C",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT315",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-48-jo-cheriyan",
+          "name": "JO CHERIYAN",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT303",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-49-kirubanantham-p",
+          "name": "KIRUBANANTHAM P",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT302",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-theory-50-vishnu-priya-a",
+          "name": "VISHNU PRIYA A",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT424",
+          "labRoom": ""
+        },
+        {
+          "id": "bcse307l-lab-1-umamaheswari-m",
+          "name": "UMAMAHESWARI M",
+          "theorySlots": [],
+          "labSlots": [
+            "L53",
+            "L54"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-2-umamaheswari-m",
+          "name": "UMAMAHESWARI M",
+          "theorySlots": [],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT417"
+        },
+        {
+          "id": "bcse307l-lab-3-boominathan-p",
+          "name": "BOOMINATHAN P",
+          "theorySlots": [],
+          "labSlots": [
+            "L31",
+            "L32"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-4-sathiya-kumar-c",
+          "name": "SATHIYA KUMAR C",
+          "theorySlots": [],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-5-vetriselvi-t",
+          "name": "VETRISELVI T",
+          "theorySlots": [],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-6-krishnaraj-n",
+          "name": "KRISHNARAJ N",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-7-vetriselvi-t",
+          "name": "VETRISELVI T",
+          "theorySlots": [],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-8-kannadasan-r",
+          "name": "KANNADASAN R",
+          "theorySlots": [],
+          "labSlots": [
+            "L5",
+            "L6"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-9-kanagaraj-r",
+          "name": "KANAGARAJ R",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-10-sathya-k",
+          "name": "SATHYA K",
+          "theorySlots": [],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-11-baskaran-p",
+          "name": "BASKARAN P",
+          "theorySlots": [],
+          "labSlots": [
+            "L29",
+            "L30"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-12-bhuvaneswari-m",
+          "name": "BHUVANESWARI M",
+          "theorySlots": [],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-13-kanagaraj-r",
+          "name": "KANAGARAJ R",
+          "theorySlots": [],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-14-sathya-k",
+          "name": "SATHYA K",
+          "theorySlots": [],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-15-bhuvaneswari-m",
+          "name": "BHUVANESWARI M",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-16-arumuga-arun-r",
+          "name": "ARUMUGA ARUN R",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-17-krishnaraj-n",
+          "name": "KRISHNARAJ N",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-18-ranjithkumar-s",
+          "name": "RANJITHKUMAR S",
+          "theorySlots": [],
+          "labSlots": [
+            "L49",
+            "L50"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-19-baskaran-p",
+          "name": "BASKARAN P",
+          "theorySlots": [],
+          "labSlots": [
+            "L53",
+            "L54"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-20-arumuga-arun-r",
+          "name": "ARUMUGA ARUN R",
+          "theorySlots": [],
+          "labSlots": [
+            "L57",
+            "L58"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-21-sam-navin-m",
+          "name": "SAM NAVIN M",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "bcse307l-lab-22-sam-navin-m",
+          "name": "SAM NAVIN M",
+          "theorySlots": [],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-23-bhawana-tyagi",
+          "name": "BHAWANA TYAGI",
+          "theorySlots": [],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "bcse307l-lab-24-bhawana-tyagi",
+          "name": "BHAWANA TYAGI",
+          "theorySlots": [],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "bcse307l-lab-25-naga-priyadarsini-r",
+          "name": "NAGA PRIYADARSINI R",
+          "theorySlots": [],
+          "labSlots": [
+            "L49",
+            "L50"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "bcse307l-lab-26-naga-priyadarsini-r",
+          "name": "NAGA PRIYADARSINI R",
+          "theorySlots": [],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "bcse307l-lab-27-hariharan-r-l",
+          "name": "HARIHARAN R L",
+          "theorySlots": [],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "bcse307l-lab-28-nivitha-k",
+          "name": "NIVITHA K",
+          "theorySlots": [],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "bcse307l-lab-29-muthunagai-s-u",
+          "name": "MUTHUNAGAI S U",
+          "theorySlots": [],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-30-nivitha-k",
+          "name": "NIVITHA K",
+          "theorySlots": [],
+          "labSlots": [
+            "L29",
+            "L30"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "bcse307l-lab-31-shalini-l",
+          "name": "SHALINI L",
+          "theorySlots": [],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "bcse307l-lab-32-nithya-k",
+          "name": "NITHYA K",
+          "theorySlots": [],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "bcse307l-lab-33-banupriya-r",
+          "name": "BANUPRIYA R",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "bcse307l-lab-34-banupriya-r",
+          "name": "BANUPRIYA R",
+          "theorySlots": [],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "bcse307l-lab-35-shalini-l",
+          "name": "SHALINI L",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-36-ranjithkumar-s",
+          "name": "RANJITHKUMAR S",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-37-muthunagai-s-u",
+          "name": "MUTHUNAGAI S U",
+          "theorySlots": [],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-38-islabudeen-m",
+          "name": "ISLABUDEEN M",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT416"
+        },
+        {
+          "id": "bcse307l-lab-39-islabudeen-m",
+          "name": "ISLABUDEEN M",
+          "theorySlots": [],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT517"
+        },
+        {
+          "id": "bcse307l-lab-40-mukhtar-ahmad-sofi",
+          "name": "MUKHTAR AHMAD SOFI",
+          "theorySlots": [],
+          "labSlots": [
+            "L57",
+            "L58"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-41-suganthini-c",
+          "name": "SUGANTHINI C",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT517"
+        },
+        {
+          "id": "bcse307l-lab-42-suganthini-c",
+          "name": "SUGANTHINI C",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-43-jo-cheriyan",
+          "name": "JO CHERIYAN",
+          "theorySlots": [],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT517"
+        },
+        {
+          "id": "bcse307l-lab-44-nithya-k",
+          "name": "NITHYA K",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "bcse307l-lab-45-jo-cheriyan",
+          "name": "JO CHERIYAN",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT517"
+        },
+        {
+          "id": "bcse307l-lab-46-mukhtar-ahmad-sofi",
+          "name": "MUKHTAR AHMAD SOFI",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT517"
+        },
+        {
+          "id": "bcse307l-lab-47-kirubanantham-p",
+          "name": "KIRUBANANTHAM P",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-48-kirubanantham-p",
+          "name": "KIRUBANANTHAM P",
+          "theorySlots": [],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "bcse307l-lab-49-vishnu-priya-a",
+          "name": "VISHNU PRIYA A",
+          "theorySlots": [],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "bcse307l-lab-50-vishnu-priya-a",
+          "name": "VISHNU PRIYA A",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        }
+      ]
+    },
+    {
+      "code": "Computer Networks (course code not listed in source)",
+      "name": "Computer Networks (course code not listed in source)",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-1-tamizharasi-t",
+          "name": "TAMIZHARASI T",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT303",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-2-anuradha-g",
+          "name": "ANURADHA G",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT304",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-3-jaya-subalakshmi-r",
+          "name": "JAYA SUBALAKSHMI R",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT302",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-4-tamizharasi-t",
+          "name": "TAMIZHARASI T",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT303",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-5-brisilla-r-m",
+          "name": "BRISILLA R M",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "PRP330",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-6-jaya-subalakshmi-r",
+          "name": "JAYA SUBALAKSHMI R",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT302",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-7-anitha-e",
+          "name": "ANITHA E",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT304",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-8-rajakumar-k",
+          "name": "RAJAKUMAR K",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT305",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-9-dheeba-j",
+          "name": "DHEEBA J",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT308",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-10-raviteja-buddala",
+          "name": "RAVITEJA BUDDALA",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311A",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-11-jayakumar-k",
+          "name": "JAYAKUMAR K",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT315",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-12-arivoli-a",
+          "name": "ARIVOLI A",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT308",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-13-selvi-m",
+          "name": "SELVI M",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-14-dilipkumar-s",
+          "name": "DILIPKUMAR S",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT401",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-15-selvi-m",
+          "name": "SELVI M",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-16-chandru-vignesh-c",
+          "name": "CHANDRU VIGNESH C",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT407",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-17-anindita-kundu",
+          "name": "ANINDITA KUNDU",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT422",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-18-kalpana-v",
+          "name": "KALPANA V",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT423",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-19-anusha-n",
+          "name": "ANUSHA N",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT405",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-20-ganesh-shamrao-khekare",
+          "name": "GANESH SHAMRAO KHEKARE",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT415",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-21-kopperundevi-n",
+          "name": "KOPPERUNDEVI N",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT409",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-22-thamizharasan-s",
+          "name": "THAMIZHARASAN S",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT402",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-23-sreethar-s",
+          "name": "SREETHAR S",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT404",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-24-sreethar-s",
+          "name": "SREETHAR S",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT404",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-25-chandru-vignesh-c",
+          "name": "CHANDRU VIGNESH C",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT407",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-26-sasikala-r",
+          "name": "SASIKALA .R",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT408",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-27-raviteja-buddala",
+          "name": "RAVITEJA BUDDALA",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT311A",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-28-shobha-rekh",
+          "name": "SHOBHA REKH",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT315",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-29-dilipkumar-s",
+          "name": "DILIPKUMAR S",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT401",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-30-thamizharasan-s",
+          "name": "THAMIZHARASAN S",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT402",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-31-sudarshan-nandy",
+          "name": "SUDARSHAN NANDY",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT403",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-32-sudarshan-nandy",
+          "name": "SUDARSHAN NANDY",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT403",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-33-anusha-n",
+          "name": "ANUSHA N",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT405",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-34-suresh-a",
+          "name": "SURESH A",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT421",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-35-kopperundevi-n",
+          "name": "KOPPERUNDEVI N",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT409",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-36-ganesh-shamrao-khekare",
+          "name": "GANESH SHAMRAO KHEKARE",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT415",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-37-suresh-a",
+          "name": "SURESH A",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT421",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-38-anindita-kundu",
+          "name": "ANINDITA KUNDU",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT422",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-39-sugumar-r",
+          "name": "SUGUMAR R",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT424",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-40-sugumar-r",
+          "name": "SUGUMAR R",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT424",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-41-kalpana-v",
+          "name": "KALPANA V",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT423",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-42-santhi-h",
+          "name": "SANTHI H",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT301",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-43-ayyasamy-s",
+          "name": "AYYASAMY S",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT501",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-44-yoganand-s",
+          "name": "YOGANAND S",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT521",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-45-kalaavathi-b",
+          "name": "KALAAVATHI B",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT502",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-46-ebenezer-juliet-s",
+          "name": "EBENEZER JULIET S",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT501",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-47-saleem-durai-m-a",
+          "name": "SALEEM DURAI M.A",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT521",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-48-ramesh-babu-k",
+          "name": "RAMESH BABU K",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT502",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-theory-49-mariappan-r",
+          "name": "MARIAPPAN R",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [],
+          "theoryRoom": "SJT301",
+          "labRoom": ""
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-1-sugumar-r",
+          "name": "SUGUMAR R",
+          "theorySlots": [],
+          "labSlots": [
+            "L7",
+            "L8"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-2-ramesh-babu-k",
+          "name": "RAMESH BABU K",
+          "theorySlots": [],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-3-sugumar-r",
+          "name": "SUGUMAR R",
+          "theorySlots": [],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-4-saleem-durai-m-a",
+          "name": "SALEEM DURAI M.A",
+          "theorySlots": [],
+          "labSlots": [
+            "L3",
+            "L4"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-5-santhi-h",
+          "name": "SANTHI H",
+          "theorySlots": [],
+          "labSlots": [
+            "L31",
+            "L32"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-6-anuradha-g",
+          "name": "ANURADHA G",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT517"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-7-anitha-e",
+          "name": "ANITHA E",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-8-jaya-subalakshmi-r",
+          "name": "JAYA SUBALAKSHMI R",
+          "theorySlots": [],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-9-jaya-subalakshmi-r",
+          "name": "JAYA SUBALAKSHMI R",
+          "theorySlots": [],
+          "labSlots": [
+            "L21",
+            "L22"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-10-kalpana-v",
+          "name": "KALPANA V",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-11-tamizharasi-t",
+          "name": "TAMIZHARASI T",
+          "theorySlots": [],
+          "labSlots": [
+            "L21",
+            "L22"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-12-kalpana-v",
+          "name": "KALPANA V",
+          "theorySlots": [],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-13-thamizharasan-s",
+          "name": "THAMIZHARASAN S",
+          "theorySlots": [],
+          "labSlots": [
+            "L19",
+            "L20"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-14-ayyasamy-s",
+          "name": "AYYASAMY S",
+          "theorySlots": [],
+          "labSlots": [
+            "L31",
+            "L32"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-15-dilipkumar-s",
+          "name": "DILIPKUMAR S",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-16-dilipkumar-s",
+          "name": "DILIPKUMAR S",
+          "theorySlots": [],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-17-rajakumar-k",
+          "name": "RAJAKUMAR K",
+          "theorySlots": [],
+          "labSlots": [
+            "L29",
+            "L30"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-18-thamizharasan-s",
+          "name": "THAMIZHARASAN S",
+          "theorySlots": [],
+          "labSlots": [
+            "L39",
+            "L40"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-19-selvi-m",
+          "name": "SELVI M",
+          "theorySlots": [],
+          "labSlots": [
+            "L21",
+            "L22"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-20-mariappan-r",
+          "name": "MARIAPPAN R",
+          "theorySlots": [],
+          "labSlots": [
+            "L3",
+            "L4"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-21-selvi-m",
+          "name": "SELVI M",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-22-kopperundevi-n",
+          "name": "KOPPERUNDEVI N",
+          "theorySlots": [],
+          "labSlots": [
+            "L49",
+            "L50"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT517"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-23-dheeba-j",
+          "name": "DHEEBA J",
+          "theorySlots": [],
+          "labSlots": [
+            "L3",
+            "L4"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-24-jayakumar-k",
+          "name": "JAYAKUMAR K",
+          "theorySlots": [],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-25-anindita-kundu",
+          "name": "ANINDITA KUNDU",
+          "theorySlots": [],
+          "labSlots": [
+            "L53",
+            "L54"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-26-anindita-kundu",
+          "name": "ANINDITA KUNDU",
+          "theorySlots": [],
+          "labSlots": [
+            "L5",
+            "L6"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-27-raviteja-buddala",
+          "name": "RAVITEJA BUDDALA",
+          "theorySlots": [],
+          "labSlots": [
+            "L5",
+            "L6"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-28-raviteja-buddala",
+          "name": "RAVITEJA BUDDALA",
+          "theorySlots": [],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT317"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-29-suresh-a",
+          "name": "SURESH A",
+          "theorySlots": [],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-30-suresh-a",
+          "name": "SURESH A",
+          "theorySlots": [],
+          "labSlots": [
+            "L39",
+            "L40"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-31-sudarshan-nandy",
+          "name": "SUDARSHAN NANDY",
+          "theorySlots": [],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-32-sudarshan-nandy",
+          "name": "SUDARSHAN NANDY",
+          "theorySlots": [],
+          "labSlots": [
+            "L7",
+            "L8"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-33-brisilla-r-m",
+          "name": "BRISILLA R M",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT417"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-34-arivoli-a",
+          "name": "ARIVOLI A",
+          "theorySlots": [],
+          "labSlots": [
+            "L49",
+            "L50"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-35-shobha-rekh",
+          "name": "SHOBHA REKH",
+          "theorySlots": [],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-36-kalaavathi-b",
+          "name": "KALAAVATHI B",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-37-sreethar-s",
+          "name": "SREETHAR S",
+          "theorySlots": [],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-38-anusha-n",
+          "name": "ANUSHA N",
+          "theorySlots": [],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-39-ebenezer-juliet-s",
+          "name": "EBENEZER JULIET S",
+          "theorySlots": [],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-40-sreethar-s",
+          "name": "SREETHAR S",
+          "theorySlots": [],
+          "labSlots": [
+            "L35",
+            "L36"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-41-yoganand-s",
+          "name": "YOGANAND S",
+          "theorySlots": [],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-42-chandru-vignesh-c",
+          "name": "CHANDRU VIGNESH C",
+          "theorySlots": [],
+          "labSlots": [
+            "L35",
+            "L36"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-43-anusha-n",
+          "name": "ANUSHA N",
+          "theorySlots": [],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-44-chandru-vignesh-c",
+          "name": "CHANDRU VIGNESH C",
+          "theorySlots": [],
+          "labSlots": [
+            "L21",
+            "L22"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT316"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-45-ganesh-shamrao-khekare",
+          "name": "GANESH SHAMRAO KHEKARE",
+          "theorySlots": [],
+          "labSlots": [
+            "L53",
+            "L54"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT621"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-46-sasikala-r",
+          "name": "SASIKALA .R",
+          "theorySlots": [],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-47-ganesh-shamrao-khekare",
+          "name": "GANESH SHAMRAO KHEKARE",
+          "theorySlots": [],
+          "labSlots": [
+            "L11",
+            "L12"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-48-kopperundevi-n",
+          "name": "KOPPERUNDEVI N",
+          "theorySlots": [],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        },
+        {
+          "id": "computer-networks-course-code-not-listed-in-source-lab-49-tamizharasi-t",
+          "name": "TAMIZHARASI T",
+          "theorySlots": [],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "",
+          "labRoom": "SJT622"
+        }
+      ]
+    },
+    {
+      "code": "BCSE309L",
+      "name": "BCSE309L - Cryptography and Network Security",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bcse309l-1-saritha-murali",
+          "name": "SARITHA MURALI",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT522"
+        }
+      ]
+    },
+    {
+      "code": "BCSE355L",
+      "name": "BCSE355L - Cloud Architecture Design",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bcse355l-1-rajasekar-v-r",
+          "name": "RAJASEKAR V R",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT301"
+        },
+        {
+          "id": "bcse355l-2-thirunavukkarasan-m",
+          "name": "THIRUNAVUKKARASAN M",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT301"
+        },
+        {
+          "id": "bcse355l-3-saranya-p",
+          "name": "SARANYA P",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT302"
+        },
+        {
+          "id": "bcse355l-4-sivaranjani-a",
+          "name": "SIVARANJANI A",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT303"
+        },
+        {
+          "id": "bcse355l-5-adrija-bhattacharya",
+          "name": "ADRIJA BHATTACHARYA",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT303"
+        },
+        {
+          "id": "bcse355l-6-bhawana-tyagi",
+          "name": "BHAWANA TYAGI",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT304"
+        },
+        {
+          "id": "bcse355l-7-naga-priyadarsini-r",
+          "name": "NAGA PRIYADARSINI R",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT305"
+        },
+        {
+          "id": "bcse355l-8-gunasekar-m",
+          "name": "GUNASEKAR M",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT304"
+        },
+        {
+          "id": "bcse355l-9-sukanta-ghosh",
+          "name": "SUKANTA GHOSH",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT308"
+        },
+        {
+          "id": "bcse355l-10-rpan-garai",
+          "name": "RPAN GARAI",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT311A"
+        },
+        {
+          "id": "bcse355l-11-priyadharsini-m",
+          "name": "PRIYADHARSINI M",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT308"
+        },
+        {
+          "id": "bcse355l-12-sri-preethaa-k-r",
+          "name": "SRI PREETHAA K R",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT305"
+        },
+        {
+          "id": "bcse355l-13-suganthini-c",
+          "name": "SUGANTHINI C",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT311A"
+        },
+        {
+          "id": "bcse355l-14-sudhakar-p",
+          "name": "SUDHAKAR P",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT311A"
+        },
+        {
+          "id": "bcse355l-15-vidhya-g",
+          "name": "VIDHYA G",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT311"
+        },
+        {
+          "id": "bcse355l-16-pushpa-gothwal",
+          "name": "PUSHPA GOTHWAL",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT407"
+        },
+        {
+          "id": "bcse355l-17-dhivyaa-c-r",
+          "name": "DHIVYAA C R",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT403"
+        },
+        {
+          "id": "bcse355l-18-parthiban-k",
+          "name": "PARTHIBAN K",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT401"
+        },
+        {
+          "id": "bcse355l-19-gayathri-s",
+          "name": "GAYATHRI S",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT401"
+        },
+        {
+          "id": "bcse355l-20-nivitha-k",
+          "name": "NIVITHA K",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT402"
+        },
+        {
+          "id": "bcse355l-21-arthi-m",
+          "name": "ARTHI M",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT315"
+        },
+        {
+          "id": "bcse355l-22-madhan-e-s",
+          "name": "MADHAN E S",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT407"
+        },
+        {
+          "id": "bcse355l-23-kopperundevi-n",
+          "name": "KOPPERUNDEVI N",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT408"
+        },
+        {
+          "id": "bcse355l-24-sunija-a-p",
+          "name": "SUNIJA A P",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT402"
+        },
+        {
+          "id": "bcse355l-25-jafar-ali-ibrahim-s",
+          "name": "JAFAR ALI IBRAHIM S",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT409"
+        },
+        {
+          "id": "bcse355l-26-sunil-kumar",
+          "name": "SUNIL KUMAR",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT403"
+        },
+        {
+          "id": "bcse355l-27-ranjithkumar-s",
+          "name": "RANJITHKUMAR S",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT404"
+        },
+        {
+          "id": "bcse355l-28-mohana-sundari-l",
+          "name": "MOHANA SUNDARI L",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT404"
+        },
+        {
+          "id": "bcse355l-29-umamaheswari-m",
+          "name": "UMAMAHESWARI M",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT405"
+        },
+        {
+          "id": "bcse355l-30-saurabh-agrawal",
+          "name": "SAURABH AGRAWAL",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT415"
+        },
+        {
+          "id": "bcse355l-31-saraswathi-priyadharshini-a",
+          "name": "SARASWATHI PRIYADHARSHINI A",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT421"
+        },
+        {
+          "id": "bcse355l-32-anny-leema-a",
+          "name": "ANNY LEEMA A",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT424"
+        },
+        {
+          "id": "bcse355l-33-krishna-rani-samal-k",
+          "name": "KRISHNA RANI SAMAL K",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT408"
+        },
+        {
+          "id": "bcse355l-34-dilipkumar-s",
+          "name": "DILIPKUMAR S",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT421"
+        },
+        {
+          "id": "bcse355l-35-kakelli-anil-kumar",
+          "name": "KAKELLI ANIL KUMAR",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT423"
+        },
+        {
+          "id": "bcse355l-36-chellatamilan-t",
+          "name": "CHELLATAMILAN T",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT423"
+        },
+        {
+          "id": "bcse355l-37-archana-t",
+          "name": "ARCHANA T",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT424"
+        },
+        {
+          "id": "bcse355l-38-thamizharasan-s",
+          "name": "THAMIZHARASAN S",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT415"
+        },
+        {
+          "id": "bcse355l-39-justin-gopinath-a",
+          "name": "JUSTIN GOPINATH A",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT422"
+        },
+        {
+          "id": "bcse355l-40-sivakumar-t",
+          "name": "SIVAKUMAR T",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT422"
+        },
+        {
+          "id": "bcse355l-41-muthunagai-s-u",
+          "name": "MUTHUNAGAI S U",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT302"
+        },
+        {
+          "id": "bcse355l-42-umadevi-k-s",
+          "name": "UMADEVI K S",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT501"
+        },
+        {
+          "id": "bcse355l-43-sharmila-c",
+          "name": "SHARMILA C",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT315"
+        },
+        {
+          "id": "bcse355l-44-naveenkumar-j",
+          "name": "NAVEENKUMAR J",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT501"
+        },
+        {
+          "id": "bcse355l-45-erapaneni-gayatri",
+          "name": "ERAPANENI GAYATRI",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT502"
+        },
+        {
+          "id": "bcse355l-46-padmavathy-t",
+          "name": "PADMAVATHY T",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT405"
+        },
+        {
+          "id": "bcse355l-47-archana-t",
+          "name": "ARCHANA T",
+          "slots": [
+            "A2",
+            "TA2"
+          ],
+          "room": "SJT409"
+        },
+        {
+          "id": "bcse355l-48-mukhtar-ahmad-sofi",
+          "name": "MUKHTAR AHMAD SOFI",
+          "slots": [
+            "A1",
+            "TA1"
+          ],
+          "room": "SJT502"
+        }
+      ]
+    },
+    {
+      "code": "BSTS301P",
+      "name": "BSTS301P - Advanced Competitive Coding - I",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bsts301p-1-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT301"
+        },
+        {
+          "id": "bsts301p-2-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT404"
+        },
+        {
+          "id": "bsts301p-3-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT415"
+        },
+        {
+          "id": "bsts301p-4-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT302"
+        },
+        {
+          "id": "bsts301p-5-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT308"
+        },
+        {
+          "id": "bsts301p-6-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT311A"
+        },
+        {
+          "id": "bsts301p-7-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT315"
+        },
+        {
+          "id": "bsts301p-8-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT303"
+        },
+        {
+          "id": "bsts301p-9-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT304"
+        },
+        {
+          "id": "bsts301p-10-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT305"
+        },
+        {
+          "id": "bsts301p-11-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT311"
+        },
+        {
+          "id": "bsts301p-12-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT324"
+        },
+        {
+          "id": "bsts301p-13-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT408"
+        },
+        {
+          "id": "bsts301p-14-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT303"
+        },
+        {
+          "id": "bsts301p-15-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT311A"
+        },
+        {
+          "id": "bsts301p-16-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT401"
+        },
+        {
+          "id": "bsts301p-17-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT408"
+        },
+        {
+          "id": "bsts301p-18-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT401"
+        },
+        {
+          "id": "bsts301p-19-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT402"
+        },
+        {
+          "id": "bsts301p-20-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT403"
+        },
+        {
+          "id": "bsts301p-21-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT423"
+        },
+        {
+          "id": "bsts301p-22-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT501"
+        },
+        {
+          "id": "bsts301p-23-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT311"
+        },
+        {
+          "id": "bsts301p-24-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT403"
+        },
+        {
+          "id": "bsts301p-25-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT404"
+        },
+        {
+          "id": "bsts301p-26-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT407"
+        },
+        {
+          "id": "bsts301p-27-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT405"
+        },
+        {
+          "id": "bsts301p-28-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT407"
+        },
+        {
+          "id": "bsts301p-29-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT422"
+        },
+        {
+          "id": "bsts301p-30-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT424"
+        },
+        {
+          "id": "bsts301p-31-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT301"
+        },
+        {
+          "id": "bsts301p-32-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT302"
+        },
+        {
+          "id": "bsts301p-33-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT305"
+        },
+        {
+          "id": "bsts301p-34-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT315"
+        },
+        {
+          "id": "bsts301p-35-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT324"
+        },
+        {
+          "id": "bsts301p-36-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT405"
+        },
+        {
+          "id": "bsts301p-37-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT422"
+        },
+        {
+          "id": "bsts301p-38-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT409"
+        },
+        {
+          "id": "bsts301p-39-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT409"
+        },
+        {
+          "id": "bsts301p-40-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT421"
+        },
+        {
+          "id": "bsts301p-41-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "SJT421"
+        },
+        {
+          "id": "bsts301p-42-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT304"
+        },
+        {
+          "id": "bsts301p-43-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT308"
+        },
+        {
+          "id": "bsts301p-44-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT501"
+        },
+        {
+          "id": "bsts301p-45-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT402"
+        },
+        {
+          "id": "bsts301p-46-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT415"
+        },
+        {
+          "id": "bsts301p-47-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT423"
+        },
+        {
+          "id": "bsts301p-48-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "SJT424"
+        },
+        {
+          "id": "bsts301p-49-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SMV218"
+        },
+        {
+          "id": "bsts301p-50-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SMV218"
+        },
+        {
+          "id": "bsts301p-51-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SMV219"
+        },
+        {
+          "id": "bsts301p-52-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SMV219"
+        },
+        {
+          "id": "bsts301p-53-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "CDMM104"
+        },
+        {
+          "id": "bsts301p-54-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "CDMM103"
+        },
+        {
+          "id": "bsts301p-55-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT404"
+        },
+        {
+          "id": "bsts301p-56-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT630"
+        },
+        {
+          "id": "bsts301p-57-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT434"
+        },
+        {
+          "id": "bsts301p-58-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SJT202"
+        },
+        {
+          "id": "bsts301p-59-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SJT202"
+        },
+        {
+          "id": "bsts301p-60-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "GDN106"
+        },
+        {
+          "id": "bsts301p-61-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "GDN121"
+        },
+        {
+          "id": "bsts301p-62-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "GDN122"
+        },
+        {
+          "id": "bsts301p-63-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "GDN123"
+        },
+        {
+          "id": "bsts301p-64-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SMV102"
+        },
+        {
+          "id": "bsts301p-65-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SMV102"
+        },
+        {
+          "id": "bsts301p-66-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "CDMM104"
+        },
+        {
+          "id": "bsts301p-67-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT404"
+        },
+        {
+          "id": "bsts301p-68-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SJT201"
+        },
+        {
+          "id": "bsts301p-69-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SJT204"
+        },
+        {
+          "id": "bsts301p-70-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SJT204"
+        },
+        {
+          "id": "bsts301p-71-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SJT205"
+        },
+        {
+          "id": "bsts301p-72-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SJT208"
+        },
+        {
+          "id": "bsts301p-73-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SJT211"
+        },
+        {
+          "id": "bsts301p-74-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "GDN106"
+        },
+        {
+          "id": "bsts301p-75-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "GDN107"
+        },
+        {
+          "id": "bsts301p-76-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "GDN120"
+        },
+        {
+          "id": "bsts301p-77-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "GDNG07"
+        },
+        {
+          "id": "bsts301p-78-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT630"
+        },
+        {
+          "id": "bsts301p-79-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT434"
+        },
+        {
+          "id": "bsts301p-80-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SJT205"
+        },
+        {
+          "id": "bsts301p-81-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SJT208"
+        },
+        {
+          "id": "bsts301p-82-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "GDN120"
+        },
+        {
+          "id": "bsts301p-83-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "GDN121"
+        },
+        {
+          "id": "bsts301p-84-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "GDN123"
+        },
+        {
+          "id": "bsts301p-85-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SJT201"
+        },
+        {
+          "id": "bsts301p-86-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "SJT211A"
+        },
+        {
+          "id": "bsts301p-87-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "GDN107"
+        },
+        {
+          "id": "bsts301p-88-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "GDN122"
+        },
+        {
+          "id": "bsts301p-89-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "SJT211"
+        },
+        {
+          "id": "bsts301p-90-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT504"
+        },
+        {
+          "id": "bsts301p-91-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT523"
+        },
+        {
+          "id": "bsts301p-92-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT504"
+        },
+        {
+          "id": "bsts301p-93-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT530"
+        },
+        {
+          "id": "bsts301p-94-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT523"
+        },
+        {
+          "id": "bsts301p-95-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT524"
+        },
+        {
+          "id": "bsts301p-96-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT530"
+        },
+        {
+          "id": "bsts301p-97-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT531"
+        },
+        {
+          "id": "bsts301p-98-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT524"
+        },
+        {
+          "id": "bsts301p-99-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT531"
+        },
+        {
+          "id": "bsts301p-100-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT530A"
+        },
+        {
+          "id": "bsts301p-101-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT530A"
+        },
+        {
+          "id": "bsts301p-102-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F1",
+            "TF1"
+          ],
+          "room": "TT531A"
+        },
+        {
+          "id": "bsts301p-103-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "F2",
+            "TF2"
+          ],
+          "room": "TT531A"
+        }
+      ]
+    }
+  ]
+}

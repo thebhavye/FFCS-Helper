@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import subprocess
 from pathlib import Path
 
@@ -9,6 +10,7 @@ app = Flask(__name__)
 CONSTRAINTS_FILE = Path(__file__).with_name("constraints.json")
 SUBJECTS_FILE = Path(__file__).with_name("subjects.json")
 MAX_SUBJECTS = 10
+SLOT_TOKEN_RE = re.compile(r"^[A-Z]{1,3}\d{1,2}(?:\+[A-Z]{1,3}\d{1,2})*$")
 
 
 def load_constraints():
@@ -227,9 +229,19 @@ def parse_slot_payload(payload_text):
     parts = payload.split()
     if len(parts) < 2:
         return {"slot": payload, "room": "", "faculty": ""}
-    slot = parts[0]
-    room = parts[1] if len(parts) >= 2 else ""
-    faculty = " ".join(parts[2:]) if len(parts) > 2 else ""
+    slot_parts = []
+    room_index = 0
+    for index, part in enumerate(parts):
+        if not SLOT_TOKEN_RE.match(part):
+            room_index = index
+            break
+        slot_parts.extend(slot for slot in part.split("+") if slot)
+    else:
+        room_index = len(parts)
+
+    slot = "+".join(slot_parts) if slot_parts else parts[0]
+    room = parts[room_index] if room_index < len(parts) else ""
+    faculty = " ".join(parts[room_index + 1 :]) if room_index + 1 < len(parts) else ""
     return {"slot": slot, "room": room, "faculty": faculty}
 
 

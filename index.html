@@ -3,10 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FFCS Helper</title>
+    <title>FFCS Helper — VIT Timetable Planner</title>
+    <meta name="description" content="Plan your VIT FFCS timetable clash-free in minutes. No login, no signup, just results." />
+    <meta name="theme-color" content="#0b0b0e" />
   </head>
   <body>
+
+    <!-- Static header — outside React, always visible -->
+    <header class="site-header">
+      <div class="site-header-inner">
+        <div class="site-brand">
+          <span class="brand-name">FFCS<span class="brand-accent">Helper</span></span>
+          <span class="brand-tagline">Plan your VIT timetable clash-free in minutes</span>
+        </div>
+        <div class="site-badges">
+          <span class="site-badge">No Login</span>
+          <span class="site-badge">No Signup</span>
+          <span class="site-badge">Free</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- React mounts here -->
     <div id="root"></div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

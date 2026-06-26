@@ -101,10 +101,14 @@ export function buildSubjectOptions(
 
   if (selectedType === "theory_lab" || selectedType === "integrated") {
     const theoryFaculty = subject.faculty.filter((faculty) =>
-      chosenTheoryIds.has(faculty.id) && allSlotsAllowed(facultyTheorySlots(faculty), selectedSet)
+      chosenTheoryIds.has(faculty.id) &&
+      facultyTheorySlots(faculty).length > 0 &&
+      allSlotsAllowed(facultyTheorySlots(faculty), selectedSet)
     );
     const labFaculty = subject.faculty.filter((faculty) =>
-      chosenLabIds.has(faculty.id) && allSlotsAllowed(facultyLabSlots(faculty), selectedSet)
+      chosenLabIds.has(faculty.id) &&
+      facultyLabSlots(faculty).length > 0 &&
+      allSlotsAllowed(facultyLabSlots(faculty), selectedSet)
     );
     const options = [];
 
@@ -131,6 +135,10 @@ export function solveTimetables(selectedSubjects, maxSearchSteps = MAX_SEARCH_ST
   let searchSteps = 0;
   let stoppedEarly = false;
   const subjects = [...selectedSubjects].sort((a, b) => a.options.length - b.options.length);
+
+  if (subjects.some((subject) => !subject.options.length)) {
+    return { results, stoppedEarly, searchSteps };
+  }
 
   const visit = (subjectIndex, schedule, occupiedSlots) => {
     if (results.length >= MAX_RESULTS) return;
@@ -185,6 +193,39 @@ const subjectsHaveAnyClash = (subjectA, subjectB) =>
   subjectA.options.some((optionA) =>
     subjectB.options.some((optionB) => findOptionClash(optionA, optionB))
   );
+
+const findSubjectClashDetails = (subject, otherSubjects, maxDetails = 4) => {
+  const details = [];
+
+  for (const otherSubject of otherSubjects) {
+    let foundForSubject = false;
+
+    for (const optionA of subject.options) {
+      if (foundForSubject) break;
+
+      for (const optionB of otherSubject.options) {
+        const clash = findOptionClash(optionA, optionB);
+        if (!clash) continue;
+
+        details.push({
+          subject: otherSubject.name,
+          optionA: formatOptionName(optionA),
+          optionB: formatOptionName(optionB),
+          slotA: clash.slotA,
+          slotB: clash.slotB
+        });
+        foundForSubject = true;
+        break;
+      }
+    }
+
+    if (details.length >= maxDetails) {
+      return details;
+    }
+  }
+
+  return details;
+};
 
 export function explainTimetableConflicts(
   selectedSubjects,
@@ -245,31 +286,41 @@ export function findSubjectBlockers(
       subjectsHaveAnyClash(subject, otherSubject)
     ).length;
     const clashesWithEveryOtherSubject = clashCount === remainingSubjects.length;
+    const clashDetails = findSubjectClashDetails(subject, remainingSubjects);
 
     if (results.length) {
       suggestions.push({
         subject: subject.name,
+        priority: subject.priority || "important",
+        noValidOptions: subject.options.length === 0,
         remainingResults: results.length,
         clashCount,
         totalOtherSubjects: remainingSubjects.length,
-        clashesWithEveryOtherSubject
+        clashesWithEveryOtherSubject,
+        clashDetails
       });
     } else if (stoppedEarly) {
       suggestions.push({
         subject: subject.name,
+        priority: subject.priority || "important",
+        noValidOptions: subject.options.length === 0,
         remainingResults: 0,
         uncertain: true,
         clashCount,
         totalOtherSubjects: remainingSubjects.length,
-        clashesWithEveryOtherSubject
+        clashesWithEveryOtherSubject,
+        clashDetails
       });
     }
   }
 
   const confirmedSuggestions = suggestions.filter((suggestion) => !suggestion.uncertain);
   const bestPool = confirmedSuggestions.length ? confirmedSuggestions : suggestions;
-  const universalBlockers = bestPool.filter((suggestion) => suggestion.clashesWithEveryOtherSubject);
-  const ranked = (universalBlockers.length ? universalBlockers : bestPool).sort((a, b) =>
+  const flexiblePool = bestPool.filter((suggestion) => suggestion.priority === "flexible");
+  const candidatePool = flexiblePool.length ? flexiblePool : bestPool;
+  const priorityRank = (suggestion) => suggestion.priority === "flexible" ? 0 : 1;
+  const ranked = candidatePool.sort((a, b) =>
+    priorityRank(a) - priorityRank(b) ||
     Number(b.clashesWithEveryOtherSubject) - Number(a.clashesWithEveryOtherSubject) ||
     b.clashCount - a.clashCount ||
     b.remainingResults - a.remainingResults

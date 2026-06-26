@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useMemo, useRef, useState } from "react";
+import React, { Fragment, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { schools } from "./data/schools.js";
 import {
   conflictsWithSelection,
@@ -17,6 +17,110 @@ const typeLabels = {
   theory: "Theory Only",
   theory_lab: "Theory + Lab",
   integrated: "Integrated"
+};
+
+const priorityLabels = {
+  important: "Important",
+  flexible: "Flexible"
+};
+
+const flexibleCourseCodes = new Set([
+  "BARB101L",
+  "BCHI101L",
+  "BESP101L",
+  "BFRE101L",
+  "BGER101L",
+  "BHUM102E",
+  "BCLE212L",
+  "BCLE215L",
+  "BCLE216L",
+  "BHUM103L",
+  "BHUM104L",
+  "BHUM106L",
+  "BHUM107L",
+  "BHUM108L",
+  "BHUM109L",
+  "BJAP101L",
+  "BHUM111L",
+  "BHUM216L"
+]);
+
+const flexibleCourseKeywords = [
+  "arabic",
+  "chinese",
+  "spanish",
+  "french",
+  "german",
+  "japanese",
+  "indian classical music",
+  "natural disaster mitigation",
+  "waste management",
+  "water resource management",
+  "micro economics",
+  "macro economics",
+  "principles of sociology",
+  "sustainability and society",
+  "urban community development",
+  "social work and sustainability",
+  "happiness and well-being",
+  "indian culture and heritage"
+];
+
+const getDefaultPriority = (subject) => {
+  const code = subject?.code || "";
+  const searchableText = `${subject?.code || ""} ${subject?.name || ""}`.toLowerCase();
+
+  if (flexibleCourseCodes.has(code)) {
+    return "flexible";
+  }
+
+  if (flexibleCourseKeywords.some((keyword) => searchableText.includes(keyword))) {
+    return "flexible";
+  }
+
+  return "important";
+};
+
+const isLabSlotGroup = (group) =>
+  group.slots.length > 0 && group.slots.every((slot) => slot.startsWith("L"));
+
+const getSlotRequirementWarnings = (selectedSubjects, selectedSlotGroups) => {
+  const selectedTheoryGroups = selectedSlotGroups.filter((group) => !isLabSlotGroup(group)).length;
+  const selectedLabGroups = selectedSlotGroups.filter(isLabSlotGroup).length;
+  const theoryCourseCount = selectedSubjects.length;
+  const labCourseCount = selectedSubjects.filter((subject) => subject.type !== "theory").length;
+  const warnings = [];
+
+  if (selectedTheoryGroups < theoryCourseCount) {
+    warnings.push({
+      type: "theory",
+      selected: selectedTheoryGroups,
+      needed: theoryCourseCount,
+      message: `You selected ${selectedTheoryGroups} theory slot group(s), but added ${theoryCourseCount} course(s). Select at least ${theoryCourseCount} theory slot group(s).`
+    });
+  }
+
+  if (selectedLabGroups < labCourseCount) {
+    warnings.push({
+      type: "lab",
+      selected: selectedLabGroups,
+      needed: labCourseCount,
+      message: `You selected ${selectedLabGroups} lab slot pair(s), but added ${labCourseCount} theory + lab course(s). Select at least ${labCourseCount} lab slot pair(s).`
+    });
+  }
+
+  return warnings;
+};
+
+const plural = (count, singular, pluralForm = `${singular}s`) =>
+  count === 1 ? singular : pluralForm;
+
+const formatSlotRequirementMessage = (warning) => {
+  const missing = warning.needed - warning.selected;
+  const slotLabel = warning.type === "lab" ? "lab slot pair" : "theory slot group";
+  const courseLabel = warning.type === "lab" ? "lab course" : "course";
+
+  return `Select ${missing} more ${plural(missing, slotLabel)}. You added ${warning.needed} ${plural(warning.needed, courseLabel)}, but selected only ${warning.selected} ${plural(warning.selected, slotLabel)}.`;
 };
 
 const subjectTypeOptions = [
@@ -49,21 +153,43 @@ const labHeadings = [
 const labColSpans = [2, 2, 1, 2, 2, 1];
 
 const formatSlotLabel = (label) => label.replace(/\s+\+\s+/g, "+");
+const formatSlotGroup = (slots) => (slots || []).filter(Boolean).join("+");
 
 function SlotPopover({ code, anchorRef, onSelect, onClose }) {
   const ref = useRef(null);
   const bundles = slotBundles[code];
-  const [pos, setPos] = useState({ top: 0, left: 0 });
+  const [pos, setPos] = useState({ top: 8, left: 8 });
 
-  useEffect(() => {
-    if (anchorRef.current) {
-      const rect = anchorRef.current.getBoundingClientRect();
-      setPos({
-        top: rect.top - 8,
-        left: rect.left + rect.width / 2
-      });
-    }
-  }, [anchorRef]);
+  useLayoutEffect(() => {
+    const anchor = anchorRef.current;
+    const popover = ref.current;
+    if (!anchor || !popover) return;
+
+    const placePopover = () => {
+      const anchorRect = anchor.getBoundingClientRect();
+      const popoverRect = popover.getBoundingClientRect();
+      const gap = 8;
+      const margin = 8;
+      const belowTop = anchorRect.bottom + gap;
+      const aboveTop = anchorRect.top - popoverRect.height - gap;
+      const fitsBelow = belowTop + popoverRect.height <= window.innerHeight - margin;
+      const top = Math.max(margin, fitsBelow ? belowTop : aboveTop);
+      const centeredLeft = anchorRect.left + anchorRect.width / 2 - popoverRect.width / 2;
+      const maxLeft = Math.max(margin, window.innerWidth - popoverRect.width - margin);
+      const left = Math.min(Math.max(margin, centeredLeft), maxLeft);
+
+      setPos({ top, left });
+    };
+
+    placePopover();
+
+    window.addEventListener("resize", onClose);
+    window.addEventListener("scroll", onClose, true);
+    return () => {
+      window.removeEventListener("resize", onClose);
+      window.removeEventListener("scroll", onClose, true);
+    };
+  }, [anchorRef, onClose]);
 
   useEffect(() => {
     function handle(e) {
@@ -81,10 +207,8 @@ function SlotPopover({ code, anchorRef, onSelect, onClose }) {
       ref={ref}
       style={{
         position: "fixed",
-        bottom: "auto",
         top: pos.top,
         left: pos.left,
-        transform: "translate(-50%, -100%)",
         zIndex: 9999
       }}
     >
@@ -237,6 +361,10 @@ function App() {
     () => Array.from(new Set(selectedSlotGroups.flatMap((group) => group.slots))),
     [selectedSlotGroups]
   );
+  const slotRequirementWarnings = useMemo(
+    () => getSlotRequirementWarnings(selectedSubjects, selectedSlotGroups),
+    [selectedSubjects, selectedSlotGroups]
+  );
   const needsLab = subjectType !== "theory";
   const theoryFaculty = (currentSubject?.faculty || []).filter(
     (faculty) => (faculty.slots || faculty.theorySlots || []).length > 0
@@ -361,7 +489,13 @@ function App() {
 
     setSelectedSubjects((cur) => [
       ...cur,
-      { code: currentSubject.code, name: currentSubject.name, type: subjectType, options }
+      {
+        code: currentSubject.code,
+        name: currentSubject.name,
+        type: subjectType,
+        priority: getDefaultPriority(currentSubject),
+        options
+      }
     ]);
     setSubjectCode("");
     setSubjectType("theory");
@@ -380,8 +514,27 @@ function App() {
     setBlockerSuggestions([]);
   };
 
+  const changeSubjectPriority = (code, priority) => {
+    setSelectedSubjects((cur) =>
+      cur.map((subject) =>
+        subject.code === code ? { ...subject, priority } : subject
+      )
+    );
+    setResults([]);
+    setConflictExplanations([]);
+    setBlockerSuggestions([]);
+    setMessage(`${priorityLabels[priority]} preference saved.`);
+  };
+
   const generate = () => {
     if (!selectedSubjects.length) { setMessage("Add at least one course."); return; }
+    if (slotRequirementWarnings.length) {
+      setResults([]);
+      setConflictExplanations([]);
+      setBlockerSuggestions([]);
+      setMessage(formatSlotRequirementMessage(slotRequirementWarnings[0]));
+      return;
+    }
     const { results: solved, stoppedEarly } = solveTimetables(selectedSubjects);
     const blockers = solved.length ? [] : findSubjectBlockers(selectedSubjects);
     const conflicts = solved.length || blockers.length ? [] : explainTimetableConflicts(selectedSubjects);
@@ -554,6 +707,19 @@ function App() {
                     <dt>Type</dt>
                     <dd>{typeLabels[subject.type] || subject.type}</dd>
                   </div>
+                  <div>
+                    <dt>Priority</dt>
+                    <dd>
+                      <select
+                        className="priority-select"
+                        value={subject.priority || "important"}
+                        onChange={(e) => changeSubjectPriority(subject.code, e.target.value)}
+                      >
+                        <option value="important">Important</option>
+                        <option value="flexible">Flexible</option>
+                      </select>
+                    </dd>
+                  </div>
                 </dl>
                 <button type="button" className="delete-button" onClick={() => removeSubject(subject.code)}>
                   Delete
@@ -563,6 +729,19 @@ function App() {
               <p className="empty-text">No courses added yet.</p>
             )}
           </div>
+
+          {slotRequirementWarnings.length > 0 && (
+            <div className="slot-warning-list">
+              {slotRequirementWarnings.map((warning) => (
+                <article key={warning.type} className="slot-warning-card">
+                  <div className="slot-warning-label">
+                    {warning.type === "lab" ? "More lab slots needed" : "More theory slots needed"}
+                  </div>
+                  <p>{formatSlotRequirementMessage(warning)}</p>
+                </article>
+              ))}
+            </div>
+          )}
 
           <button className="primary-button generate-btn" type="button" onClick={generate}>
             Generate Timetables
@@ -583,16 +762,46 @@ function App() {
           <div className="blocker-list">
             {blockerSuggestions.map((blocker) => (
               <article key={blocker.subject} className="blocker-card">
-                <div className="blocker-label">Likely blocker</div>
+                <div className="blocker-label">
+                  Likely blocker - {priorityLabels[blocker.priority] || "Important"}
+                </div>
                 <p>
-                  Removing <strong>{blocker.subject}</strong>
-                  {blocker.uncertain
-                    ? " may help, but the remaining search was still too broad to confirm."
-                    : ` allows at least ${blocker.remainingResults} timetable(s) with the other selected courses.`}
-                  {blocker.clashesWithEveryOtherSubject
-                    ? " It clashes with every other selected course."
-                    : ` It clashes with ${blocker.clashCount} of ${blocker.totalOtherSubjects} other selected course(s).`}
+                  {blocker.noValidOptions ? (
+                    <>
+                      <strong>{blocker.subject}</strong> has no selected faculty option that matches the chosen slots.
+                      For theory + lab subjects, select both its theory slots and one complete lab slot pair.
+                    </>
+                  ) : (
+                    <>
+                      Removing <strong>{blocker.subject}</strong>
+                      {blocker.uncertain
+                        ? " may help, but the remaining search was still too broad to confirm."
+                        : ` allows at least ${blocker.remainingResults} timetable(s) with the other selected courses.`}
+                      {blocker.clashesWithEveryOtherSubject
+                        ? " It clashes with every other selected course."
+                        : ` It clashes with ${blocker.clashCount} of ${blocker.totalOtherSubjects} other selected course(s).`}
+                    </>
+                  )}
                 </p>
+                {blocker.clashDetails?.length > 0 && (
+                  <div className="blocker-detail-list">
+                    <div className="blocker-detail-heading">
+                      {blocker.subject} clashes with:
+                    </div>
+                    {blocker.clashDetails.map((detail, index) => (
+                      <div
+                        key={`${detail.subject}-${detail.slotA}-${detail.slotB}-${index}`}
+                        className="blocker-detail"
+                      >
+                        <div className="blocker-detail-subject">{detail.subject}</div>
+                        <div className="blocker-detail-slots">
+                          <span>{blocker.subject}: {detail.slotA}</span>
+                          <span>{detail.subject}: {detail.slotB}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </article>
             ))}
           </div>
@@ -613,16 +822,16 @@ function App() {
                     {entry.type === "theory" ? (
                       <div className="result-slots">
                         <span className="slot-tag theory-tag">Theory</span>
-                        {entry.slots.map((s) => <span key={s} className="slot-chip">{s}</span>)}
+                        <span className="slot-chip">{formatSlotGroup(entry.slots)}</span>
                         {entry.room && <span className="room-chip">{entry.room}</span>}
                       </div>
                     ) : (
                       <div className="result-slots">
                         <span className="slot-tag theory-tag">Theory</span>
-                        {(entry.theorySlots || []).map((s) => <span key={s} className="slot-chip">{s}</span>)}
+                        <span className="slot-chip">{formatSlotGroup(entry.theorySlots)}</span>
                         {entry.theoryRoom && <span className="room-chip">{entry.theoryRoom}</span>}
                         <span className="slot-tag lab-tag">Lab</span>
-                        {(entry.labSlots || []).map((s) => <span key={s} className="slot-chip">{s}</span>)}
+                        <span className="slot-chip">{formatSlotGroup(entry.labSlots)}</span>
                         {entry.labRoom && <span className="room-chip">{entry.labRoom}</span>}
                       </div>
                     )}

@@ -230,13 +230,23 @@ const showSlotChoiceMenu = (slotCode, anchorCell) => {
     slotChoiceOptions.appendChild(clearBtn);
   }
 
+  slotChoiceMenu.style.visibility = "hidden";
+  slotChoiceMenu.classList.remove("hidden");
+
   const rect = anchorCell.getBoundingClientRect();
-  const top = rect.bottom + window.scrollY + 6;
-  const left = rect.left + window.scrollX;
+  const menuRect = slotChoiceMenu.getBoundingClientRect();
+  const gap = 8;
+  const margin = 8;
+  const belowTop = rect.bottom + gap;
+  const aboveTop = rect.top - menuRect.height - gap;
+  const fitsBelow = belowTop + menuRect.height <= window.innerHeight - margin;
+  const top = Math.max(margin, fitsBelow ? belowTop : aboveTop);
+  const maxLeft = Math.max(margin, window.innerWidth - menuRect.width - margin);
+  const left = Math.min(Math.max(margin, rect.left), maxLeft);
 
   slotChoiceMenu.style.top = `${top}px`;
   slotChoiceMenu.style.left = `${left}px`;
-  slotChoiceMenu.classList.remove("hidden");
+  slotChoiceMenu.style.visibility = "";
   slotChoiceMenu.setAttribute("aria-hidden", "false");
 };
 
@@ -808,6 +818,9 @@ document.addEventListener("click", (event) => {
   if (target.closest(".slot")) return;
   hideSlotChoiceMenu();
 });
+
+window.addEventListener("scroll", hideSlotChoiceMenu, true);
+window.addEventListener("resize", hideSlotChoiceMenu);
 
 // Reset only the timetable selections.
 if (resetButton) {

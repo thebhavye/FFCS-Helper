@@ -2,6 +2,7 @@ import React, { Fragment, useCallback, useEffect, useLayoutEffect, useMemo, useR
 import { schools } from "./data/schools.js";
 import {
   conflictsWithSelection,
+  isClash,
   slotBundles,
   slotTimes,
   splitSlotCode,
@@ -404,6 +405,7 @@ function App() {
   const [conflictExplanations, setConflictExplanations] = useState([]);
   const [blockerSuggestions, setBlockerSuggestions] = useState([]);
   const [message, setMessage] = useState("Select slots, configure a course, then add it.");
+  const [autoSlotNotice, setAutoSlotNotice] = useState(null);
   const appRef = useRef(null);
   const slotsPanelRef = useRef(null);
   const coursePanelRef = useRef(null);
@@ -470,7 +472,7 @@ function App() {
   const resetSlots = () => {
     setSelectedSlotGroups([]);
     setResults([]);
-    
+    setAutoSlotNotice(null);
     setConflictExplanations([]);
     setBlockerSuggestions([]);
     setMessage("Slots reset.");
@@ -485,24 +487,134 @@ function App() {
     setMessage("Selected courses reset.");
   };
 
+  // Auto-add faculty slots to the timetable when a faculty is selected.
+  // Returns { added, clashing } notice object, or null if nothing to do.
+  const autoAddFacultySlots = (slots) => {
+    if (!slots.length) return null;
+    const currentSlotSet = new Set(selectedSlots);
+    const missingSlots = slots.filter((s) => !currentSlotSet.has(s));
+    if (!missingSlots.length) return null;
+
+    const clashingSlots = missingSlots.filter((s) =>
+      selectedSlots.some((existing) => isClash(s, existing))
+    );
+    const slotsToAdd = missingSlots.filter((s) => !clashingSlots.includes(s));
+
+    if (slotsToAdd.length > 0) {
+      setSelectedSlotGroups((current) => {
+        let next = [...current];
+        for (const slot of slotsToAdd) {
+          next = next.filter((group) => !group.slots.includes(slot));
+          next = [...next, { label: slot, slots: [slot] }];
+        }
+        const newSlotSet = new Set(next.flatMap((g) => g.slots));
+        setSelectedSubjects((curSubjects) =>
+          curSubjects.map((subject) => ({
+            ...subject,
+            options: (subject.allOptions || subject.options).filter((opt) =>
+              opt.slots.every((s) => newSlotSet.has(s))
+            )
+          }))
+        );
+        return next;
+      });
+      setConflictExplanations([]);
+      setBlockerSuggestions([]);
+    }
+
+    return { added: slotsToAdd, clashing: clashingSlots };
+  };
+
   const toggleTheoryFaculty = (id) => {
+    const isAdding = !selectedTheoryFacultyIds.includes(id);
     setSelectedTheoryFacultyIds((cur) =>
       cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id]
     );
+
+    if (isAdding) {
+      const faculty = (currentSubject?.faculty || []).find((f) => f.id === id);
+      if (!faculty) return;
+
+      const theorySlots = faculty.slots || faculty.theorySlots || [];
+      let extraSlots = [];
+
+      // When "Allow different teacher" is OFF, auto-select the same faculty for lab
+      if (needsLab && !allowDifferentTeachers && (faculty.labSlots || []).length > 0) {
+        setSelectedLabFacultyIds((cur) =>
+          cur.includes(id) ? cur : [...cur, id]
+        );
+        extraSlots = faculty.labSlots || [];
+      }
+
+      const notice = autoAddFacultySlots([...theorySlots, ...extraSlots]);
+      if (notice && (notice.added.length > 0 || notice.clashing.length > 0)) {
+        setAutoSlotNotice(notice);
+      }
+    } else {
+      // Deselecting: also remove from lab if "Allow different teacher" is OFF
+      if (needsLab && !allowDifferentTeachers) {
+        setSelectedLabFacultyIds((cur) => cur.filter((x) => x !== id));
+      }
+    }
   };
 
   const toggleLabFaculty = (id) => {
+    const isAdding = !selectedLabFacultyIds.includes(id);
     setSelectedLabFacultyIds((cur) =>
       cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id]
     );
+
+    if (isAdding) {
+      const faculty = (currentSubject?.faculty || []).find((f) => f.id === id);
+      if (faculty) {
+        const labSlots = faculty.labSlots || [];
+        const notice = autoAddFacultySlots(labSlots);
+        if (notice && (notice.added.length > 0 || notice.clashing.length > 0)) {
+          setAutoSlotNotice(notice);
+        }
+      }
+    }
   };
 
   const setAllTheoryFaculty = (checked) => {
-    setSelectedTheoryFacultyIds(checked ? theoryFaculty.map((f) => f.id) : []);
+    const ids = checked ? theoryFaculty.map((f) => f.id) : [];
+    setSelectedTheoryFacultyIds(ids);
+
+    if (checked && needsLab && !allowDifferentTeachers) {
+      // Auto-select matching lab faculty for same-teacher mode
+      const labIds = theoryFaculty
+        .filter((f) => (f.labSlots || []).length > 0)
+        .map((f) => f.id);
+      setSelectedLabFacultyIds(labIds);
+    }
+
+    if (checked) {
+      // Auto-add all theory slots (and lab slots if same-teacher mode) to timetable
+      const allSlots = theoryFaculty.flatMap((f) => {
+        const theory = f.slots || f.theorySlots || [];
+        const lab = needsLab && !allowDifferentTeachers ? (f.labSlots || []) : [];
+        return [...theory, ...lab];
+      });
+      const uniqueSlots = [...new Set(allSlots)];
+      const notice = autoAddFacultySlots(uniqueSlots);
+      if (notice && (notice.added.length > 0 || notice.clashing.length > 0)) {
+        setAutoSlotNotice(notice);
+      }
+    }
   };
 
   const setAllLabFaculty = (checked) => {
-    setSelectedLabFacultyIds(checked ? labFaculty.map((f) => f.id) : []);
+    const ids = checked ? labFaculty.map((f) => f.id) : [];
+    setSelectedLabFacultyIds(ids);
+
+    if (checked) {
+      const allSlots = labFaculty.flatMap((f) => f.labSlots || []);
+      const uniqueSlots = [...new Set(allSlots)];
+      const notice = autoAddFacultySlots(uniqueSlots);
+      if (notice && (notice.added.length > 0 || notice.clashing.length > 0)) {
+        setAutoSlotNotice(notice);
+      }
+    }
   };
 
   const changeSchool = (code) => {
@@ -511,6 +623,7 @@ function App() {
     setSubjectType("theory");
     setSelectedTheoryFacultyIds([]);
     setSelectedLabFacultyIds([]);
+    setAutoSlotNotice(null);
   };
 
   const changeSubject = (code) => {
@@ -520,6 +633,7 @@ function App() {
     setAllowDifferentTeachers(false);
     setSelectedTheoryFacultyIds([]);
     setSelectedLabFacultyIds([]);
+    setAutoSlotNotice(null);
   };
 
   const changeSubjectType = (type) => {
@@ -527,7 +641,7 @@ function App() {
     setAllowDifferentTeachers(false);
     setSelectedTheoryFacultyIds([]);
     setSelectedLabFacultyIds([]);
-    
+    setAutoSlotNotice(null);
     setConflictExplanations([]);
     setBlockerSuggestions([]);
   };
@@ -812,10 +926,45 @@ function App() {
             onSelectAll={setAllLabFaculty}
           />
 
-          <p className="hint">
-            {validFacultyPreview.length} option(s) match your selected slots.
+          {autoSlotNotice && (
+            <div className={`auto-slot-notice ${autoSlotNotice.clashing.length > 0 ? "auto-slot-notice-warn" : "auto-slot-notice-ok"}`}>
+              <div className="auto-slot-notice-body">
+                <span className="auto-slot-notice-icon">
+                  {autoSlotNotice.clashing.length > 0 ? "⚠️" : "✓"}
+                </span>
+                <div className="auto-slot-notice-text">
+                  {autoSlotNotice.added.length > 0 && (
+                    <span>
+                      <strong>{autoSlotNotice.added.join(", ")}</strong>{" "}
+                      {autoSlotNotice.added.length === 1 ? "slot was" : "slots were"} automatically added to the timetable based on your faculty selection.
+                    </span>
+                  )}
+                  {autoSlotNotice.clashing.length > 0 && (
+                    <span>
+                      {autoSlotNotice.added.length > 0 ? " " : ""}
+                      Could not auto-add <strong>{autoSlotNotice.clashing.join(", ")}</strong> — {autoSlotNotice.clashing.length === 1 ? "it clashes" : "they clash"} with your existing slot selection. Please add {autoSlotNotice.clashing.length === 1 ? "it" : "them"} manually after resolving the conflict.
+                    </span>
+                  )}
+                </div>
+              </div>
+              <button
+                type="button"
+                className="auto-slot-notice-close"
+                onClick={() => setAutoSlotNotice(null)}
+                aria-label="Dismiss"
+              >✕</button>
+            </div>
+          )}
+
+          <p className={`hint${validFacultyPreview.length === 0 && currentSubject ? " hint-zero" : ""}`}>
+            {validFacultyPreview.length === 0 && currentSubject
+              ? "⚠ 0 options match your selected slots"
+              : `${validFacultyPreview.length} option(s) match your selected slots.`}
             {needsLab && !allowDifferentTeachers && validFacultyPreview.length === 0 && selectedTheoryFacultyIds.length > 0 && selectedLabFacultyIds.length > 0 && (
               <span className="hint-warn"> No teacher handles both theory and lab. Try turning on <em>Allow different teacher</em>.</span>
+            )}
+            {needsLab && !allowDifferentTeachers && validFacultyPreview.length === 0 && selectedTheoryFacultyIds.length > 0 && selectedLabFacultyIds.length === 0 && (
+              <span className="hint-warn"> The selected theory teacher has no lab slots. Try turning on <em>Allow different teacher</em> to pick separate lab faculty.</span>
             )}
           </p>
 

@@ -460,8 +460,75 @@ select option {
 .hint {
   margin: 2px 0 0;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
 }
+
+.hint-zero {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--danger);
+}
+
+/* ─── AUTO-SLOT NOTICE ─────────────────────────────── */
+.auto-slot-notice {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  margin: 6px 0 10px;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.auto-slot-notice-ok {
+  background: var(--ok-soft);
+  border: 1px solid var(--ok-border);
+  border-left: 3px solid var(--ok);
+  color: #2a5a3a;
+}
+
+.auto-slot-notice-warn {
+  background: var(--warn-soft);
+  border: 1px solid var(--warn-border);
+  border-left: 3px solid var(--warn);
+  color: var(--warn);
+}
+
+.auto-slot-notice-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1;
+}
+
+.auto-slot-notice-icon {
+  flex-shrink: 0;
+  font-size: 13px;
+  margin-top: 1px;
+}
+
+.auto-slot-notice-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.auto-slot-notice-close {
+  flex-shrink: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 11px;
+  padding: 0;
+  opacity: 0.5;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+.auto-slot-notice-close:hover { opacity: 1; }
 
 /* ─── BUTTONS ─────────────────────────────────────── */
 .primary-button,

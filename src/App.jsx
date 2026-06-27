@@ -1,8 +1,9 @@
-import React, { Fragment, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import React, { Fragment, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { schools } from "./data/schools.js";
 import {
   conflictsWithSelection,
   slotBundles,
+  slotTimes,
   splitSlotCode,
   timetableRows
 } from "./logic/slots.js";
@@ -399,6 +400,7 @@ function App() {
   const [selectedSlotGroups, setSelectedSlotGroups] = useState([]);
   const [selectedSubjects, setSelectedSubjects] = useState([]);
   const [results, setResults] = useState([]);
+  const [hasGenerated, setHasGenerated] = useState(false);
   const [conflictExplanations, setConflictExplanations] = useState([]);
   const [blockerSuggestions, setBlockerSuggestions] = useState([]);
   const [message, setMessage] = useState("Select slots, configure a course, then add it.");
@@ -439,14 +441,27 @@ function App() {
 
   const handleSlotToggle = (slots, adding, label = slots.join("+")) => {
     setSelectedSlotGroups((current) => {
+      let next;
       if (!adding) {
-        return current.filter((group) => !group.slots.some((slot) => slots.includes(slot)));
+        next = current.filter((group) => !group.slots.some((slot) => slots.includes(slot)));
+      } else {
+        next = current.filter((group) => !group.slots.some((slot) => slots.includes(slot)));
+        next = [...next, { label: formatSlotLabel(label), slots }];
       }
 
-      const next = current.filter((group) => !group.slots.some((slot) => slots.includes(slot)));
-      return [...next, { label: formatSlotLabel(label), slots }];
+      // Recompute each subject's options from its full allOptions, filtered to new slot set
+      const newSlotSet = new Set(next.flatMap((g) => g.slots));
+      setSelectedSubjects((curSubjects) =>
+        curSubjects.map((subject) => ({
+          ...subject,
+          options: (subject.allOptions || subject.options).filter((opt) =>
+            opt.slots.every((s) => newSlotSet.has(s))
+          )
+        }))
+      );
+
+      return next;
     });
-    setResults([]);
     setConflictExplanations([]);
     setBlockerSuggestions([]);
     setMessage("Slots updated.");
@@ -455,6 +470,7 @@ function App() {
   const resetSlots = () => {
     setSelectedSlotGroups([]);
     setResults([]);
+    
     setConflictExplanations([]);
     setBlockerSuggestions([]);
     setMessage("Slots reset.");
@@ -463,6 +479,7 @@ function App() {
   const resetCourses = () => {
     setSelectedSubjects([]);
     setResults([]);
+    
     setConflictExplanations([]);
     setBlockerSuggestions([]);
     setMessage("Selected courses reset.");
@@ -510,7 +527,7 @@ function App() {
     setAllowDifferentTeachers(false);
     setSelectedTheoryFacultyIds([]);
     setSelectedLabFacultyIds([]);
-    setResults([]);
+    
     setConflictExplanations([]);
     setBlockerSuggestions([]);
   };
@@ -532,13 +549,19 @@ function App() {
     if (!selectedTheoryFacultyIds.length) { setMessage("Select at least one theory faculty."); return; }
     if (needsLab && !selectedLabFacultyIds.length) { setMessage("Select at least one lab faculty."); return; }
 
-    const options = buildSubjectOptions(
+    const allSlotKeys = Object.keys(slotTimes);
+    // allOptions = every option these faculty can make regardless of slot selection
+    const allOptions = buildSubjectOptions(
       currentSubject,
       selectedTheoryFacultyIds,
-      selectedSlots,
+      allSlotKeys,
       subjectType,
       selectedLabFacultyIds,
       allowDifferentTeachers
+    );
+    // options = filtered to only what fits current slot selection
+    const options = allOptions.filter((opt) =>
+      opt.slots.every((s) => selectedSlots.includes(s))
     );
     if (!options.length) {
       setMessage("No selected faculty fit within your chosen slots.");
@@ -552,14 +575,15 @@ function App() {
         name: currentSubject.name,
         type: subjectType,
         priority: getDefaultPriority(currentSubject),
-        options
+        allOptions,  // full set — refiltered on every slot change
+        options      // slot-filtered — what the solver actually uses
       }
     ]);
     setSubjectCode("");
     setSubjectType("theory");
     setSelectedTheoryFacultyIds([]);
     setSelectedLabFacultyIds([]);
-    setResults([]);
+    
     setConflictExplanations([]);
     setBlockerSuggestions([]);
     setMessage(`${currentSubject.name} added - ${options.length} valid option(s).`);
@@ -567,7 +591,7 @@ function App() {
 
   const removeSubject = (code) => {
     setSelectedSubjects((cur) => cur.filter((s) => s.code !== code));
-    setResults([]);
+    
     setConflictExplanations([]);
     setBlockerSuggestions([]);
   };
@@ -584,18 +608,18 @@ function App() {
     setMessage(`${priorityLabels[priority]} preference saved.`);
   };
 
-  const generate = () => {
-    if (!selectedSubjects.length) { setMessage("Add at least one course."); return; }
-    if (slotRequirementWarnings.length) {
+  const runGenerate = useCallback((subjects, warnings) => {
+    if (!subjects.length) return;
+    if (warnings.length) {
       setResults([]);
       setConflictExplanations([]);
       setBlockerSuggestions([]);
-      setMessage(formatSlotRequirementMessage(slotRequirementWarnings[0]));
+      setMessage(formatSlotRequirementMessage(warnings[0]));
       return;
     }
-    const { results: solved, stoppedEarly } = solveTimetables(selectedSubjects);
-    const blockers = solved.length ? [] : findSubjectBlockers(selectedSubjects);
-    const conflicts = solved.length || blockers.length ? [] : explainTimetableConflicts(selectedSubjects);
+    const { results: solved, stoppedEarly } = solveTimetables(subjects);
+    const blockers = solved.length ? [] : findSubjectBlockers(subjects);
+    const conflicts = solved.length || blockers.length ? [] : explainTimetableConflicts(subjects);
     setResults(solved);
     setConflictExplanations(conflicts);
     setBlockerSuggestions(blockers);
@@ -608,7 +632,23 @@ function App() {
             ? "No clash-free timetable possible. Check the blocker hints below."
             : "No clash-free timetable possible with these courses."
     );
+  }, []);
+
+  const generate = () => {
+    if (!selectedSubjects.length) { setMessage("Add at least one course."); return; }
+    setHasGenerated(true);
+    runGenerate(selectedSubjects, slotRequirementWarnings);
   };
+
+  // Auto re-run whenever slots or subjects change, but ONLY after user has generated once
+  const hasGeneratedRef = useRef(false);
+  useEffect(() => { hasGeneratedRef.current = hasGenerated; }, [hasGenerated]);
+
+  useEffect(() => {
+    if (!hasGeneratedRef.current) return;
+    if (!selectedSubjects.length) { setResults([]); setConflictExplanations([]); setBlockerSuggestions([]); return; }
+    runGenerate(selectedSubjects, slotRequirementWarnings);
+  }, [selectedSlotGroups, selectedSubjects]);
 
   const jumpToStep = (idx) => {
     const refs = [slotsPanelRef, coursePanelRef, resultsPanelRef];
@@ -842,7 +882,7 @@ function App() {
           )}
 
           <button className="primary-button generate-btn" type="button" onClick={generate}>
-            Generate Timetables
+            {hasGenerated ? "⟳ Re-generate Timetables" : "Generate Timetables"}
           </button>
         </section>
       </section>

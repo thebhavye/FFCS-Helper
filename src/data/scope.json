@@ -6493,6 +6493,628 @@
           "room": "SMV220"
         }
       ]
+    },
+    {
+      "code": "CSI1001",
+      "name": "CSI1001 - Principles of Database Systems",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "1001-senthilnathan-p",
+          "name": "SENTHILNATHAN P",
+          "theorySlots": [
+            "A1"
+          ],
+          "labSlots": [
+            "L41",
+            "L42"
+          ],
+          "theoryRoom": "SJT521",
+          "labRoom": "SJT516"
+        }
+      ]
+    },
+    {
+      "code": "CSI1002",
+      "name": "CSI1002 - Operating System Principles",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "1002-karthikeyan-a",
+          "name": "KARTHIKEYAN A",
+          "theorySlots": [
+            "E2"
+          ],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "SJT521",
+          "labRoom": "SJT516"
+        }
+      ]
+    },
+    {
+      "code": "CSI3001",
+      "name": "CSI3001 - Cloud Computing Methodologies",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "3001-sendhil-kumar-k-s",
+          "name": "SENDHIL KUMAR K S",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L49",
+            "L50"
+          ],
+          "theoryRoom": "PRP134",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3001-jothi-k-r",
+          "name": "JOTHI K R",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L49",
+            "L50"
+          ],
+          "theoryRoom": "PRP238",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "3001-arpan-garai",
+          "name": "ARPAN GARAI",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [
+            "L53",
+            "L54"
+          ],
+          "theoryRoom": "PRP238A",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3001-mohanasundaram-r",
+          "name": "MOHANASUNDARAM R",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "PRP134",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3001-kakelli-anil-kumar",
+          "name": "KAKELLI ANIL KUMAR",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "PRP230",
+          "labRoom": "SJT319"
+        },
+        {
+          "id": "3001-kapil-kumar-sharma",
+          "name": "KAPIL KUMAR SHARMA",
+          "theorySlots": [
+            "B2",
+            "TB2"
+          ],
+          "labSlots": [
+            "L57",
+            "L58"
+          ],
+          "theoryRoom": "PRP238",
+          "labRoom": "SJT318"
+        }
+      ]
+    },
+    {
+      "code": "CSI3004",
+      "name": "CSI3004 - Data Science Programming",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "3004-berlin-m-a",
+          "name": "BERLIN M A",
+          "theorySlots": [
+            "C2"
+          ],
+          "labSlots": [
+            "L29",
+            "L30"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3004-subramaniyaswamy-v",
+          "name": "SUBRAMANIYASWAMY V",
+          "theorySlots": [
+            "C1"
+          ],
+          "labSlots": [
+            "L33",
+            "L34"
+          ],
+          "theoryRoom": "PRP134",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "3004-annapurna-jonnalagadda",
+          "name": "ANNAPURNA JONNALAGADDA",
+          "theorySlots": [
+            "C2"
+          ],
+          "labSlots": [
+            "L29",
+            "L30"
+          ],
+          "theoryRoom": "PRP134",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "3004-prabakaran-n",
+          "name": "PRABAKARAN N",
+          "theorySlots": [
+            "C2"
+          ],
+          "labSlots": [
+            "L13",
+            "L14"
+          ],
+          "theoryRoom": "PRP238A",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "3004-padma-priya-m",
+          "name": "PADMA PRIYA M",
+          "theorySlots": [
+            "C1"
+          ],
+          "labSlots": [
+            "L37",
+            "L38"
+          ],
+          "theoryRoom": "PRP238A",
+          "labRoom": "SJT418"
+        }
+      ]
+    },
+    {
+      "code": "CSI3005",
+      "name": "CSI3005 - Advanced Data Visualization Techniques",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "3005-rajkumar-r",
+          "name": "RAJKUMAR R",
+          "theorySlots": [
+            "E1",
+            "TE1"
+          ],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "PRP238",
+          "labRoom": "SJT319"
+        },
+        {
+          "id": "3005-yuvaraj-n",
+          "name": "YUVARAJ N",
+          "theorySlots": [
+            "E2",
+            "TE2"
+          ],
+          "labSlots": [
+            "L27",
+            "L28"
+          ],
+          "theoryRoom": "PRP238A",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3005-meenakshi-s-p",
+          "name": "MEENAKSHI S P",
+          "theorySlots": [
+            "E2",
+            "TE2"
+          ],
+          "labSlots": [
+            "L5",
+            "L6"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT319"
+        },
+        {
+          "id": "3005-parthiban-k",
+          "name": "PARTHIBAN K",
+          "theorySlots": [
+            "E1",
+            "TE1"
+          ],
+          "labSlots": [
+            "L5",
+            "L6"
+          ],
+          "theoryRoom": "PRP230",
+          "labRoom": "SJT318"
+        }
+      ]
+    },
+    {
+      "code": "MDI3001",
+      "name": "MDI3001 - Advances in Web Technologies",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "3001-mary-mekala-a",
+          "name": "MARY MEKALA A",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L39",
+            "L40"
+          ],
+          "theoryRoom": "PRP238A",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3001-deepa-d",
+          "name": "DEEPA D",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L19",
+            "L20"
+          ],
+          "theoryRoom": "PRP330",
+          "labRoom": "SJT416"
+        },
+        {
+          "id": "3001-arun-kumar-g",
+          "name": "ARUN KUMAR G",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L55",
+            "L56"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT416"
+        },
+        {
+          "id": "3001-sinthuja-m",
+          "name": "SINTHUJA M",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L7",
+            "L8"
+          ],
+          "theoryRoom": "PRP238A",
+          "labRoom": "SJT318"
+        }
+      ]
+    },
+    {
+      "code": "MDI4001",
+      "name": "MDI4001 - Machine Learning for Data Science",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "4001-chiranjeevi-c",
+          "name": "CHIRANJEEVI C",
+          "theorySlots": [
+            "A1",
+            "TA1"
+          ],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "PRP238",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "4001-radhakrishnan-delhibabu",
+          "name": "RADHAKRISHNAN DELHIBABU",
+          "theorySlots": [
+            "A2",
+            "TA2"
+          ],
+          "labSlots": [
+            "L3",
+            "L4"
+          ],
+          "theoryRoom": "PRP330",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "4001-anny-leema-a",
+          "name": "ANNY LEEMA A",
+          "theorySlots": [
+            "A1",
+            "TA1"
+          ],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "PRP330",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "4001-sudhakara-pandian-r",
+          "name": "SUDHAKARA PANDIAN R",
+          "theorySlots": [
+            "A2",
+            "TA2"
+          ],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT418"
+        },
+        {
+          "id": "4001-thirumoorthy-k",
+          "name": "THIRUMOORTHY K",
+          "theorySlots": [
+            "A2",
+            "TA2"
+          ],
+          "labSlots": [
+            "L15",
+            "L16"
+          ],
+          "theoryRoom": "PRP230",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "4001-rohith-r",
+          "name": "ROHITH R",
+          "theorySlots": [
+            "A1",
+            "TA1"
+          ],
+          "labSlots": [
+            "L51",
+            "L52"
+          ],
+          "theoryRoom": "PRP230",
+          "labRoom": "SJT319"
+        }
+      ]
+    },
+    {
+      "code": "CSI3008",
+      "name": "CSI3008 - Internet of Everything",
+      "type": "theory_lab",
+      "faculty": [
+        {
+          "id": "3008-krishnamoorthy-a",
+          "name": "KRISHNAMOORTHY A",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3008-murugan-k",
+          "name": "MURUGAN K",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [
+            "L47",
+            "L48"
+          ],
+          "theoryRoom": "PRP330",
+          "labRoom": "SJT319"
+        },
+        {
+          "id": "3008-jafar-ali-ibrahim-s",
+          "name": "JAFAR ALI IBRAHIM S",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "PRP230",
+          "labRoom": "SJT318"
+        }
+      ]
+    },
+    {
+      "code": "CSI3014",
+      "name": "CSI3014 - Software Verification and Validation",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "3014-1-1-ramanathan-l",
+          "name": "RAMANATHAN L",
+          "slots": [
+            "E1",
+            "TE1"
+          ],
+          "room": "PRP330"
+        },
+        {
+          "id": "3014-2-2-senthilnathan-p",
+          "name": "SENTHILNATHAN P",
+          "slots": [
+            "E2",
+            "TE2"
+          ],
+          "room": "PRP330"
+        }
+      ]
+    },
+    {
+      "code": "PHY1901",
+      "name": "PHY1901 - Introduction to Innovative Projects",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "1901-1-leema-rose-viannie",
+          "name": "LEEMA ROSE VIANNIE",
+          "slots": [
+            "TAA1"
+          ],
+          "room": "PRP134"
+        },
+        {
+          "id": "1901-1-abhinav-anand",
+          "name": "ABHINAV ANAND",
+          "slots": [
+            "TCC1"
+          ],
+          "room": "PRP134"
+        },
+        {
+          "id": "1901-2-saravanan-r",
+          "name": "SARAVANAN R",
+          "slots": [
+            "TBB2"
+          ],
+          "room": "PRP134"
+        }
+      ]
+    },
+    {
+      "code": "STS3021",
+      "name": "STS3021 - Getting Started to Skill Enhancement",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "3021-1-1-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "D1",
+            "TD1"
+          ],
+          "room": "PRP134"
+        },
+        {
+          "id": "3021-1-1-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "D1",
+            "TD1"
+          ],
+          "room": "PRP238"
+        },
+        {
+          "id": "3021-2-2-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "D2",
+            "TD2"
+          ],
+          "room": "PRP329"
+        },
+        {
+          "id": "3021-1-1-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "D1",
+            "TD1"
+          ],
+          "room": "PRP238A"
+        },
+        {
+          "id": "3021-1-1-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "D1",
+            "TD1"
+          ],
+          "room": "PRP329"
+        },
+        {
+          "id": "3021-1-1-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "D1",
+            "TD1"
+          ],
+          "room": "PRP330"
+        },
+        {
+          "id": "3021-2-2-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "D2",
+            "TD2"
+          ],
+          "room": "PRP134"
+        },
+        {
+          "id": "3021-2-2-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "D2",
+            "TD2"
+          ],
+          "room": "PRP238"
+        },
+        {
+          "id": "3021-2-2-ethnus-apt",
+          "name": "ETHNUS (APT)",
+          "slots": [
+            "D2",
+            "TD2"
+          ],
+          "room": "PRP238A"
+        },
+        {
+          "id": "3021-2-2-face-apt",
+          "name": "FACE (APT)",
+          "slots": [
+            "D2",
+            "TD2"
+          ],
+          "room": "PRP330"
+        }
+      ]
     }
   ]
 }

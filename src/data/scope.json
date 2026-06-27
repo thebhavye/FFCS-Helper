@@ -6622,6 +6622,34 @@
           ],
           "theoryRoom": "PRP238",
           "labRoom": "SJT318"
+        },
+        {
+          "id": "3001-arpan-garai-b1",
+          "name": "ARPAN GARAI",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L25",
+            "L26"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT319"
+        },
+        {
+          "id": "3001-kapil-kumar-sharma-b1",
+          "name": "KAPIL KUMAR SHARMA",
+          "theorySlots": [
+            "B1",
+            "TB1"
+          ],
+          "labSlots": [
+            "L9",
+            "L10"
+          ],
+          "theoryRoom": "PRP238A",
+          "labRoom": "SJT318"
         }
       ]
     },
@@ -6694,6 +6722,19 @@
           ],
           "theoryRoom": "PRP238A",
           "labRoom": "SJT418"
+        },
+        {
+          "id": "3004-berlin-m-a-c1",
+          "name": "BERLIN M A",
+          "theorySlots": [
+            "C1"
+          ],
+          "labSlots": [
+            "L33",
+            "L34"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT318"
         }
       ]
     },
@@ -6757,6 +6798,48 @@
           ],
           "theoryRoom": "PRP230",
           "labRoom": "SJT318"
+        },
+        {
+          "id": "3005-meenakshi-s-p-e1",
+          "name": "MEENAKSHI S P",
+          "theorySlots": [
+            "E1",
+            "TE1"
+          ],
+          "labSlots": [
+            "L43",
+            "L44"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT416"
+        },
+        {
+          "id": "3005-yuvaraj-n-e1",
+          "name": "YUVARAJ N",
+          "theorySlots": [
+            "E1",
+            "TE1"
+          ],
+          "labSlots": [
+            "L35",
+            "L36"
+          ],
+          "theoryRoom": "PRP238A",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3005-parthiban-k-e2",
+          "name": "PARTHIBAN K",
+          "theorySlots": [
+            "E2",
+            "TE2"
+          ],
+          "labSlots": [
+            "L35",
+            "L36"
+          ],
+          "theoryRoom": "PRP238",
+          "labRoom": "SJT418"
         }
       ]
     },
@@ -6820,6 +6903,34 @@
           ],
           "theoryRoom": "PRP238A",
           "labRoom": "SJT318"
+        },
+        {
+          "id": "3001-arun-kumar-g-f1",
+          "name": "ARUN KUMAR G",
+          "theorySlots": [
+            "F1",
+            "TF1"
+          ],
+          "labSlots": [
+            "L19",
+            "L20"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT417"
+        },
+        {
+          "id": "3001-deepa-d-f2",
+          "name": "DEEPA D",
+          "theorySlots": [
+            "F2",
+            "TF2"
+          ],
+          "labSlots": [
+            "L39",
+            "L40"
+          ],
+          "theoryRoom": "PRP238",
+          "labRoom": "SJT319"
         }
       ]
     },
@@ -6959,6 +7070,45 @@
             "L46"
           ],
           "theoryRoom": "PRP230",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3008-murugan-k-g1",
+          "name": "MURUGAN K",
+          "theorySlots": [
+            "G1",
+            "TG1"
+          ],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "PRP330",
+          "labRoom": "SJT319"
+        },
+        {
+          "id": "3008-jafar-ali-ibrahim-s-g2",
+          "name": "JAFAR ALI IBRAHIM S",
+          "theorySlots": [
+            "G2",
+            "TG2"
+          ],
+          "labSlots": [
+            "L23",
+            "L24"
+          ],
+          "theoryRoom": "PRP329",
+          "labRoom": "SJT318"
+        },
+        {
+          "id": "3008-jafar-ali-ibrahim-s-g2-lab2",
+          "name": "JAFAR ALI IBRAHIM S",
+          "theorySlots": [],
+          "labSlots": [
+            "L45",
+            "L46"
+          ],
+          "theoryRoom": "",
           "labRoom": "SJT318"
         }
       ]

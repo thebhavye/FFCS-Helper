@@ -1,7 +1,7 @@
 import { hasAnyClash, isClash } from "./slots.js";
 
-const MAX_RESULTS = 50;
-const MAX_SEARCH_STEPS = 120000;
+const MAX_RESULTS = 5000;
+const MAX_SEARCH_STEPS = 5000000;
 const MAX_BLOCKER_SEARCH_STEPS = 600000;
 const MAX_CONFLICT_EXPLANATIONS = 8;
 const MAX_BLOCKER_SUGGESTIONS = 1;
@@ -86,7 +86,8 @@ export function buildSubjectOptions(
   selectedFacultyIds,
   selectedSlots,
   selectedType = subject.type,
-  selectedLabFacultyIds = []
+  selectedLabFacultyIds = [],
+  allowDifferentTeachers = true
 ) {
   const selectedSet = new Set(selectedSlots);
   const chosenTheoryIds = new Set(selectedFacultyIds);
@@ -114,11 +115,19 @@ export function buildSubjectOptions(
 
     theoryFaculty.forEach((theoryFac) => {
       labFaculty.forEach((labFac) => {
+        if (!allowDifferentTeachers && theoryFac.name !== labFac.name) return;
         const option = makeCombinedOption(subject, theoryFac, labFac);
         if (!hasInternalClash(option.slots)) {
           options.push(option);
         }
       });
+    });
+
+    // Same faculty for both theory and lab comes first
+    options.sort((a, b) => {
+      const aIsSame = a.theoryFacultyName === a.labFacultyName ? 0 : 1;
+      const bIsSame = b.theoryFacultyName === b.labFacultyName ? 0 : 1;
+      return aIsSame - bIsSame;
     });
 
     return options;
@@ -170,6 +179,15 @@ export function solveTimetables(selectedSubjects, maxSearchSteps = MAX_SEARCH_ST
   };
 
   visit(0, [], []);
+
+  // Sort results: timetables where theory_lab subjects have same faculty for both come first
+  const sameFacultyScore = (schedule) =>
+    schedule.filter(
+      (opt) => opt.type === "theory_lab" && opt.theoryFacultyName === opt.labFacultyName
+    ).length;
+
+  results.sort((a, b) => sameFacultyScore(b) - sameFacultyScore(a));
+
   return { results, stoppedEarly, searchSteps };
 }
 

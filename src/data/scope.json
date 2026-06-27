@@ -2,755 +2,8 @@
   "name": "SCOPE",
   "subjects": [
     {
-      "code": "Probability",
-      "name": "Probability",
-      "type": "theory_lab",
-      "faculty": [
-        {
-          "id": "prob-ezhilmaran-d",
-          "name": "EZHILMARAN D",
-          "theorySlots": [
-            "B1",
-            "TB1"
-          ],
-          "labSlots": [
-            "L1",
-            "L2"
-          ],
-          "theoryRoom": "PRP201",
-          "labRoom": "PRP201"
-        },
-        {
-          "id": "prob-gorintla-sucharitha",
-          "name": "GORINTLA SUCHARITHA",
-          "theorySlots": [
-            "B1",
-            "TB1"
-          ],
-          "labSlots": [
-            "L55",
-            "L56"
-          ],
-          "theoryRoom": "PRP203",
-          "labRoom": "PRP203"
-        },
-        {
-          "id": "prob-padigepati-naveen",
-          "name": "PADIGEPATI NAVEEN",
-          "theorySlots": [
-            "B1",
-            "TB1"
-          ],
-          "labSlots": [
-            "L37",
-            "L38"
-          ],
-          "theoryRoom": "PRP205",
-          "labRoom": "PRP205"
-        },
-        {
-          "id": "prob-gowsalya-m",
-          "name": "GOWSALYA M",
-          "theorySlots": [
-            "B1",
-            "TB1"
-          ],
-          "labSlots": [
-            "L3",
-            "L4"
-          ],
-          "theoryRoom": "PRP207",
-          "labRoom": "PRP207"
-        },
-        {
-          "id": "prob-sujasree-m",
-          "name": "SUJASREE M",
-          "theorySlots": [
-            "B1",
-            "TB1"
-          ],
-          "labSlots": [
-            "L55",
-            "L56"
-          ],
-          "theoryRoom": "PRP209",
-          "labRoom": "PRP207"
-        },
-        {
-          "id": "prob-ramu-geddavalasa",
-          "name": "RAMU GEDDAVALASA",
-          "theorySlots": [
-            "B1",
-            "TB1"
-          ],
-          "labSlots": [
-            "L57",
-            "L58"
-          ],
-          "theoryRoom": "PRP211",
-          "labRoom": "PRP207"
-        },
-        {
-          "id": "prob-kuvar-satya-singh",
-          "name": "KUVAR SATYA SINGH",
-          "theorySlots": [
-            "B1",
-            "TB1"
-          ],
-          "labSlots": [
-            "L59",
-            "L60"
-          ],
-          "theoryRoom": "PRP213",
-          "labRoom": "PRP207"
-        }
-      ]
-    },
-    {
-      "code": "Computer Architecture",
-      "name": "Computer Architecture",
-      "type": "theory",
-      "faculty": [
-        {
-          "id": "ca-vijaya-kumar-k",
-          "name": "VIJAYA KUMAR K",
-          "slots": [
-            "A1",
-            "TA1"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-brisilla-r-m",
-          "name": "BRISILLA R M",
-          "slots": [
-            "A1",
-            "TA1"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-sivakumar-n",
-          "name": "SIVAKUMAR N",
-          "slots": [
-            "A1",
-            "TA1"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-karthikeyan-a",
-          "name": "KARTHIKEYAN A",
-          "slots": [
-            "A1",
-            "TA1"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-naga-raja-g",
-          "name": "NAGA RAJA G",
-          "slots": [
-            "A1",
-            "TA1"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-sreethar-s",
-          "name": "SREETHAR S",
-          "slots": [
-            "A1",
-            "TA1"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-berlin-m-a",
-          "name": "BERLIN M A",
-          "slots": [
-            "A1",
-            "TA1"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-sairabanu-j",
-          "name": "SAIRABANU J",
-          "slots": [
-            "A2",
-            "TA2"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-venkata-lakshmi-narayana-k",
-          "name": "VENKATA LAKSHMI NARAYANA K",
-          "slots": [
-            "A2",
-            "TA2"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-narayanamoorthi-m",
-          "name": "NARAYANAMOORTHI M",
-          "slots": [
-            "A2",
-            "TA2"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-mohan-kumar-p",
-          "name": "MOHAN KUMAR P",
-          "slots": [
-            "A2",
-            "TA2"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-selvi-m",
-          "name": "SELVI M",
-          "slots": [
-            "A2",
-            "TA2"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-jayakumar-k",
-          "name": "JAYAKUMAR K",
-          "slots": [
-            "A2",
-            "TA2"
-          ],
-          "room": "PRP208"
-        },
-        {
-          "id": "ca-keerthika-p",
-          "name": "KEERTHIKA P",
-          "slots": [
-            "A2",
-            "TA2"
-          ],
-          "room": "PRP208"
-        }
-      ]
-    },
-    {
-      "code": "MPMC",
-      "name": "MPMC",
-      "type": "theory_lab",
-      "faculty": [
-        {
-          "id": "mpmc-sanjay-kumar-singh",
-          "name": "SANJAY KUMAR SINGH",
-          "theorySlots": [
-            "C1",
-            "TC1"
-          ],
-          "labSlots": [
-            "L31",
-            "L32"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "mpmc-arun-dev-dhar-dwivedi",
-          "name": "ARUN DEV DHAR DWIVEDI",
-          "theorySlots": [
-            "C1",
-            "TC1"
-          ],
-          "labSlots": [
-            "L33",
-            "L34"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "mpmc-biswajit-dwivedy",
-          "name": "BISWAJIT DWIVEDY",
-          "theorySlots": [
-            "C1",
-            "TC1"
-          ],
-          "labSlots": [
-            "L35",
-            "L36"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "mpmc-vetriveeran-rajamani",
-          "name": "VETRIVEERAN RAJAMANI",
-          "theorySlots": [
-            "C1",
-            "TC1"
-          ],
-          "labSlots": [
-            "L37",
-            "L38"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "mpmc-prachi-sharma",
-          "name": "PRACHI SHARMA",
-          "theorySlots": [
-            "C1",
-            "TC1"
-          ],
-          "labSlots": [
-            "L39",
-            "L40"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "mpmc-shanidul-hoque",
-          "name": "SHANIDUL HOQUE",
-          "theorySlots": [
-            "C1",
-            "TC1"
-          ],
-          "labSlots": [
-            "L41",
-            "L42"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "mpmc-sultan-mahmood-chowdhury",
-          "name": "SULTAN MAHMOOD CHOWDHURY",
-          "theorySlots": [
-            "C1",
-            "TC1"
-          ],
-          "labSlots": [
-            "L55",
-            "L56"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "mpmc-gautam-narayan",
-          "name": "GAUTAM NARAYAN",
-          "theorySlots": [
-            "C2",
-            "TC2"
-          ],
-          "labSlots": [
-            "L3",
-            "L4"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "mpmc-indrasen-singh",
-          "name": "INDRASEN SINGH",
-          "theorySlots": [
-            "C2",
-            "TC2"
-          ],
-          "labSlots": [
-            "L11",
-            "L12"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        }
-      ]
-    },
-    {
-      "code": "DAA",
-      "name": "DAA",
-      "type": "theory_lab",
-      "faculty": [
-        {
-          "id": "daa-gayathri-p",
-          "name": "GAYATHRI P",
-          "theorySlots": [
-            "F1",
-            "TF1"
-          ],
-          "labSlots": [
-            "L45",
-            "L46"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-joshva-devadas-t",
-          "name": "JOSHVA DEVADAS T",
-          "theorySlots": [
-            "F1",
-            "TF1"
-          ],
-          "labSlots": [
-            "L47",
-            "L48"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-sharief-basha-s-a",
-          "name": "SHARIEF BASHA S",
-          "theorySlots": [
-            "F1",
-            "TF1"
-          ],
-          "labSlots": [
-            "L49",
-            "L50"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-ilanthenral-k-p-s-k",
-          "name": "ILANTHENRAL K P S K",
-          "theorySlots": [
-            "F1",
-            "TF1"
-          ],
-          "labSlots": [
-            "L51",
-            "L52"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-iyappan-p-a",
-          "name": "IYAPPAN P",
-          "theorySlots": [
-            "F1",
-            "TF1"
-          ],
-          "labSlots": [
-            "L53",
-            "L54"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-karthik-g-m",
-          "name": "KARTHIK G M",
-          "theorySlots": [
-            "F1",
-            "TF1"
-          ],
-          "labSlots": [
-            "L55",
-            "L56"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-rajesh-a",
-          "name": "RAJESH A",
-          "theorySlots": [
-            "F1",
-            "TF1"
-          ],
-          "labSlots": [
-            "L57",
-            "L58"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-varalakshmi-m",
-          "name": "VARALAKSHMI M",
-          "theorySlots": [
-            "F2",
-            "TF2"
-          ],
-          "labSlots": [
-            "L1",
-            "L2"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-sharief-basha-s-b",
-          "name": "SHARIEF BASHA S",
-          "theorySlots": [
-            "F2",
-            "TF2"
-          ],
-          "labSlots": [
-            "L3",
-            "L4"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-jenicka-s",
-          "name": "JENICKA S",
-          "theorySlots": [
-            "F2",
-            "TF2"
-          ],
-          "labSlots": [
-            "L5",
-            "L6"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-iyappan-p-b",
-          "name": "IYAPPAN P",
-          "theorySlots": [
-            "F2",
-            "TF2"
-          ],
-          "labSlots": [
-            "L7",
-            "L8"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-shalini-l",
-          "name": "SHALINI L",
-          "theorySlots": [
-            "F2",
-            "TF2"
-          ],
-          "labSlots": [
-            "L9",
-            "L10"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-lakshmi-s",
-          "name": "LAKSHMI S",
-          "theorySlots": [
-            "F2",
-            "TF2"
-          ],
-          "labSlots": [
-            "L11",
-            "L12"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        },
-        {
-          "id": "daa-niha-k",
-          "name": "NIHA K",
-          "theorySlots": [
-            "F2",
-            "TF2"
-          ],
-          "labSlots": [
-            "L13",
-            "L14"
-          ],
-          "theoryRoom": "PRP208",
-          "labRoom": "PRP211"
-        }
-      ]
-    },
-    {
-      "code": "BCHI101L",
-      "name": "BCHI101L - Chinese I",
-      "type": "theory",
-      "faculty": [
-        {
-          "id": "bchi101l-1-khana-baidya",
-          "name": "KHANA BAIDYA",
-          "slots": [
-            "G1"
-          ],
-          "room": "SJT604"
-        },
-        {
-          "id": "bchi101l-2-khana-baidya",
-          "name": "KHANA BAIDYA",
-          "slots": [
-            "D1"
-          ],
-          "room": "TT305"
-        },
-        {
-          "id": "bchi101l-3-khana-baidya",
-          "name": "KHANA BAIDYA",
-          "slots": [
-            "E2"
-          ],
-          "room": "SJT508"
-        }
-      ]
-    },
-    {
-      "code": "BFRE101L",
-      "name": "BFRE101L - French I",
-      "type": "theory",
-      "faculty": [
-        {
-          "id": "bfre101l-1-coumaran-g",
-          "name": "COUMARAN G",
-          "slots": [
-            "E1"
-          ],
-          "room": "PRP736"
-        },
-        {
-          "id": "bfre101l-2-visalakshi-r",
-          "name": "VISALAKSHI R",
-          "slots": [
-            "D2"
-          ],
-          "room": "SMV116"
-        },
-        {
-          "id": "bfre101l-3-visalakshi-r",
-          "name": "VISALAKSHI R",
-          "slots": [
-            "F2"
-          ],
-          "room": "CDMM405"
-        },
-        {
-          "id": "bfre101l-4-shantanu-shandilya",
-          "name": "SHANTANU SHANDILYA",
-          "slots": [
-            "D2"
-          ],
-          "room": "SJT627"
-        },
-        {
-          "id": "bfre101l-5-calaivanane-r",
-          "name": "CALAIVANANE R",
-          "slots": [
-            "F1"
-          ],
-          "room": "PRP629"
-        },
-        {
-          "id": "bfre101l-6-antoinette-daniel",
-          "name": "ANTOINETTE DANIEL",
-          "slots": [
-            "F1"
-          ],
-          "room": "SJT508"
-        },
-        {
-          "id": "bfre101l-7-shantanu-shandilya",
-          "name": "SHANTANU SHANDILYA",
-          "slots": [
-            "G1"
-          ],
-          "room": "SJT617"
-        },
-        {
-          "id": "bfre101l-8-malathy-o",
-          "name": "MALATHY O",
-          "slots": [
-            "A2"
-          ],
-          "room": "SMV219"
-        },
-        {
-          "id": "bfre101l-9-visalakshi-r",
-          "name": "VISALAKSHI R",
-          "slots": [
-            "G1"
-          ],
-          "room": "PRP372"
-        }
-      ]
-    },
-    {
-      "code": "BGER101L",
-      "name": "BGER101L - German I",
-      "type": "theory",
-      "faculty": [
-        {
-          "id": "bger101l-1-amit-kumar-saini",
-          "name": "AMIT KUMAR SAINI",
-          "slots": [
-            "B2"
-          ],
-          "room": "SMV214"
-        },
-        {
-          "id": "bger101l-2-abhijit-kr-darbey",
-          "name": "ABHIJIT KR DARBEY",
-          "slots": [
-            "B2"
-          ],
-          "room": "SMV219"
-        },
-        {
-          "id": "bger101l-3-adaikalam-arulanandam",
-          "name": "ADAIKALAM ARULANANDAM",
-          "slots": [
-            "F1"
-          ],
-          "room": "SJTG24"
-        },
-        {
-          "id": "bger101l-4-dhananjay-kumar",
-          "name": "DHANANJAY KUMAR",
-          "slots": [
-            "G1"
-          ],
-          "room": "PRP339"
-        },
-        {
-          "id": "bger101l-5-arati-kumari",
-          "name": "ARATI KUMARI",
-          "slots": [
-            "E1"
-          ],
-          "room": "PRP670"
-        },
-        {
-          "id": "bger101l-6-arati-kumari",
-          "name": "ARATI KUMARI",
-          "slots": [
-            "F2"
-          ],
-          "room": "SJT603"
-        },
-        {
-          "id": "bger101l-7-abhijit-kr-darbey",
-          "name": "ABHIJIT KR DARBEY",
-          "slots": [
-            "G1"
-          ],
-          "room": "PRP379"
-        }
-      ]
-    },
-    {
-      "code": "Database Systems (course code not listed in source)",
-      "name": "Database Systems (course code not listed in source)",
+      "code": "BCSE302L",
+      "name": "BCSE302L - Database Systems",
       "type": "theory_lab",
       "faculty": [
         {
@@ -1812,8 +1065,8 @@
       ]
     },
     {
-      "code": "Operating Systems (course code not listed in source)",
-      "name": "Operating Systems (course code not listed in source)",
+      "code": "BCSE303L",
+      "name": "BCSE303L - Operating Systems",
       "type": "theory_lab",
       "faculty": [
         {
@@ -4437,8 +3690,8 @@
       ]
     },
     {
-      "code": "Computer Networks (course code not listed in source)",
-      "name": "Computer Networks (course code not listed in source)",
+      "code": "BCSE308L",
+      "name": "BCSE308L - Computer Networks",
       "type": "theory_lab",
       "faculty": [
         {
@@ -5518,22 +4771,6 @@
           ],
           "theoryRoom": "",
           "labRoom": "SJT622"
-        }
-      ]
-    },
-    {
-      "code": "BCSE309L",
-      "name": "BCSE309L - Cryptography and Network Security",
-      "type": "theory",
-      "faculty": [
-        {
-          "id": "bcse309l-1-saritha-murali",
-          "name": "SARITHA MURALI",
-          "slots": [
-            "C1",
-            "TC1"
-          ],
-          "room": "SJT522"
         }
       ]
     },
@@ -6907,6 +6144,353 @@
             "TF2"
           ],
           "room": "TT531A"
+        }
+      ]
+    },
+    {
+      "code": "BCSE309L",
+      "name": "BCSE309L - Cryptography and Network Security",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bcse309l-1-saritha-murali",
+          "name": "SARITHA MURALI",
+          "slots": [
+            "C1",
+            "TC1"
+          ],
+          "room": "SJT522"
+        }
+      ]
+    },
+    {
+      "code": "BFRE101L",
+      "name": "BFRE101L - French I",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bfre101l-1-coumaran-g",
+          "name": "COUMARAN G",
+          "slots": [
+            "E1"
+          ],
+          "room": "PRP736"
+        },
+        {
+          "id": "bfre101l-2-visalakshi-r",
+          "name": "VISALAKSHI R",
+          "slots": [
+            "D2"
+          ],
+          "room": "SMV116"
+        },
+        {
+          "id": "bfre101l-3-visalakshi-r",
+          "name": "VISALAKSHI R",
+          "slots": [
+            "F2"
+          ],
+          "room": "CDMM405"
+        },
+        {
+          "id": "bfre101l-4-shantanu-shandilya",
+          "name": "SHANTANU SHANDILYA",
+          "slots": [
+            "D2"
+          ],
+          "room": "SJT627"
+        },
+        {
+          "id": "bfre101l-5-calaivanane-r",
+          "name": "CALAIVANANE R",
+          "slots": [
+            "F1"
+          ],
+          "room": "PRP629"
+        },
+        {
+          "id": "bfre101l-6-antoinette-daniel",
+          "name": "ANTOINETTE DANIEL",
+          "slots": [
+            "F1"
+          ],
+          "room": "SJT508"
+        },
+        {
+          "id": "bfre101l-7-shantanu-shandilya",
+          "name": "SHANTANU SHANDILYA",
+          "slots": [
+            "G1"
+          ],
+          "room": "SJT617"
+        },
+        {
+          "id": "bfre101l-8-malathy-o",
+          "name": "MALATHY O",
+          "slots": [
+            "A2"
+          ],
+          "room": "SMV219"
+        },
+        {
+          "id": "bfre101l-9-visalakshi-r",
+          "name": "VISALAKSHI R",
+          "slots": [
+            "G1"
+          ],
+          "room": "PRP372"
+        }
+      ]
+    },
+    {
+      "code": "BESP101L",
+      "name": "BESP101L - Spanish I",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "besp101l-1-shilpi-gupta",
+          "name": "SHILPI GUPTA",
+          "slots": [
+            "F1"
+          ],
+          "room": "SMV104"
+        },
+        {
+          "id": "besp101l-1-atul-kumar",
+          "name": "ATUL KUMAR",
+          "slots": [
+            "A2"
+          ],
+          "room": "SJT604"
+        },
+        {
+          "id": "besp101l-1-sabyasachi-mishra",
+          "name": "SABYASACHI MISHRA",
+          "slots": [
+            "B2"
+          ],
+          "room": "CDMM403"
+        },
+        {
+          "id": "besp101l-2-shilpi-gupta",
+          "name": "SHILPI GUPTA",
+          "slots": [
+            "G1"
+          ],
+          "room": "PRP333"
+        },
+        {
+          "id": "besp101l-3-shilpi-gupta",
+          "name": "SHILPI GUPTA",
+          "slots": [
+            "B1"
+          ],
+          "room": "PRP333"
+        },
+        {
+          "id": "besp101l-2-sabyasachi-mishra",
+          "name": "SABYASACHI MISHRA",
+          "slots": [
+            "A2"
+          ],
+          "room": "CDMM405"
+        },
+        {
+          "id": "besp101l-1-nupur-manasi",
+          "name": "NUPUR MANASI",
+          "slots": [
+            "F2"
+          ],
+          "room": "SJT807"
+        },
+        {
+          "id": "besp101l-1-baishali-choudhuri",
+          "name": "BAISHALI CHOUDHURI",
+          "slots": [
+            "A2"
+          ],
+          "room": "SJT324"
+        },
+        {
+          "id": "besp101l-2-atul-kumar",
+          "name": "ATUL KUMAR",
+          "slots": [
+            "B2"
+          ],
+          "room": "CDMM404"
+        },
+        {
+          "id": "besp101l-4-shilpi-gupta",
+          "name": "SHILPI GUPTA",
+          "slots": [
+            "A1"
+          ],
+          "room": "CDMM404"
+        }
+      ]
+    },
+    {
+      "code": "BGER101L",
+      "name": "BGER101L - German I",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bger101l-1-amit-kumar-saini",
+          "name": "AMIT KUMAR SAINI",
+          "slots": [
+            "B2"
+          ],
+          "room": "SMV214"
+        },
+        {
+          "id": "bger101l-2-abhijit-kr-darbey",
+          "name": "ABHIJIT KR DARBEY",
+          "slots": [
+            "B2"
+          ],
+          "room": "SMV219"
+        },
+        {
+          "id": "bger101l-3-adaikalam-arulanandam",
+          "name": "ADAIKALAM ARULANANDAM",
+          "slots": [
+            "F1"
+          ],
+          "room": "SJTG24"
+        },
+        {
+          "id": "bger101l-4-dhananjay-kumar",
+          "name": "DHANANJAY KUMAR",
+          "slots": [
+            "G1"
+          ],
+          "room": "PRP339"
+        },
+        {
+          "id": "bger101l-5-arati-kumari",
+          "name": "ARATI KUMARI",
+          "slots": [
+            "E1"
+          ],
+          "room": "PRP670"
+        },
+        {
+          "id": "bger101l-6-arati-kumari",
+          "name": "ARATI KUMARI",
+          "slots": [
+            "F2"
+          ],
+          "room": "SJT603"
+        },
+        {
+          "id": "bger101l-7-abhijit-kr-darbey",
+          "name": "ABHIJIT KR DARBEY",
+          "slots": [
+            "G1"
+          ],
+          "room": "PRP379"
+        }
+      ]
+    },
+    {
+      "code": "BCHI101L",
+      "name": "BCHI101L - Chinese I",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bchi101l-1-khana-baidya",
+          "name": "KHANA BAIDYA",
+          "slots": [
+            "G1"
+          ],
+          "room": "SJT604"
+        },
+        {
+          "id": "bchi101l-2-khana-baidya",
+          "name": "KHANA BAIDYA",
+          "slots": [
+            "D1"
+          ],
+          "room": "TT305"
+        },
+        {
+          "id": "bchi101l-3-khana-baidya",
+          "name": "KHANA BAIDYA",
+          "slots": [
+            "E2"
+          ],
+          "room": "SJT508"
+        }
+      ]
+    },
+    {
+      "code": "BJAP101L",
+      "name": "BJAP101L - Japanese I",
+      "type": "theory",
+      "faculty": [
+        {
+          "id": "bjap101l-1-khanjan",
+          "name": "KHANJAN",
+          "slots": [
+            "E2"
+          ],
+          "room": "SJT522"
+        },
+        {
+          "id": "bjap101l-2-hiya-mukherjee",
+          "name": "HIYA MUKHERJEE",
+          "slots": [
+            "D1"
+          ],
+          "room": "SMV126"
+        },
+        {
+          "id": "bjap101l-3-khanjan",
+          "name": "KHANJAN",
+          "slots": [
+            "G1"
+          ],
+          "room": "PRP736"
+        },
+        {
+          "id": "bjap101l-4-khanjan",
+          "name": "KHANJAN",
+          "slots": [
+            "A2"
+          ],
+          "room": "SJT603"
+        },
+        {
+          "id": "bjap101l-5-khanjan",
+          "name": "KHANJAN",
+          "slots": [
+            "G2"
+          ],
+          "room": "SJT521"
+        },
+        {
+          "id": "bjap101l-6-hiya-mukherjee",
+          "name": "HIYA MUKHERJEE",
+          "slots": [
+            "B2"
+          ],
+          "room": "SMV121"
+        },
+        {
+          "id": "bjap101l-7-hiya-mukherjee",
+          "name": "HIYA MUKHERJEE",
+          "slots": [
+            "G1"
+          ],
+          "room": "SMV104"
+        },
+        {
+          "id": "bjap101l-8-hiya-mukherjee",
+          "name": "HIYA MUKHERJEE",
+          "slots": [
+            "A2"
+          ],
+          "room": "SMV220"
         }
       ]
     }

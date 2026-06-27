@@ -339,10 +339,61 @@ function FacultyChecklist({
   );
 }
 
+function StepOverview({ slotsCount, coursesCount, hasResults, onJump }) {
+  const steps = [
+    {
+      num: "01",
+      title: "Select Slots",
+      desc: "Click time slots on the grid to mark when you're free",
+      done: slotsCount > 0,
+      active: slotsCount === 0,
+      status: slotsCount > 0 ? `${slotsCount} slot${slotsCount !== 1 ? "s" : ""} selected` : "No slots yet"
+    },
+    {
+      num: "02",
+      title: "Add Courses",
+      desc: "Pick a subject, choose faculty, then hit Add Course",
+      done: coursesCount > 0,
+      active: slotsCount > 0 && coursesCount === 0,
+      status: coursesCount > 0 ? `${coursesCount} course${coursesCount !== 1 ? "s" : ""} added` : "No courses yet"
+    },
+    {
+      num: "03",
+      title: "Generate",
+      desc: "Hit Generate Timetables and see clash-free options",
+      done: hasResults,
+      active: coursesCount > 0 && !hasResults,
+      status: hasResults ? "Done! Timetables ready" : "Waiting for courses"
+    }
+  ];
+
+  return (
+    <div className="step-overview">
+      {steps.map((step, idx) => (
+        <button
+          key={step.num}
+          type="button"
+          className={`step-card ${step.done ? "step-done" : step.active ? "step-active" : "step-idle"}`}
+          onClick={() => onJump(idx)}
+        >
+          <div className="step-card-top">
+            <span className="step-num">{step.num}</span>
+            {step.done && <span className="step-check">✓</span>}
+          </div>
+          <div className="step-card-title">{step.title}</div>
+          <div className="step-card-desc">{step.desc}</div>
+          <div className="step-card-status">{step.status}</div>
+        </button>
+      ))}
+    </div>
+  );
+}
+
 function App() {
   const [schoolCode, setSchoolCode] = useState("SCOPE");
   const [subjectCode, setSubjectCode] = useState("");
   const [subjectType, setSubjectType] = useState("theory");
+  const [allowDifferentTeachers, setAllowDifferentTeachers] = useState(false);
   const [selectedTheoryFacultyIds, setSelectedTheoryFacultyIds] = useState([]);
   const [selectedLabFacultyIds, setSelectedLabFacultyIds] = useState([]);
   const [selectedSlotGroups, setSelectedSlotGroups] = useState([]);
@@ -352,6 +403,9 @@ function App() {
   const [blockerSuggestions, setBlockerSuggestions] = useState([]);
   const [message, setMessage] = useState("Select slots, configure a course, then add it.");
   const appRef = useRef(null);
+  const slotsPanelRef = useRef(null);
+  const coursePanelRef = useRef(null);
+  const resultsPanelRef = useRef(null);
 
   const school = schools[schoolCode];
   const allSubjects = school?.subjects || [];
@@ -378,9 +432,10 @@ function App() {
       selectedTheoryFacultyIds,
       selectedSlots,
       subjectType,
-      selectedLabFacultyIds
+      selectedLabFacultyIds,
+      allowDifferentTeachers
     );
-  }, [currentSubject, selectedTheoryFacultyIds, selectedLabFacultyIds, selectedSlots, subjectType]);
+  }, [currentSubject, selectedTheoryFacultyIds, selectedLabFacultyIds, selectedSlots, subjectType, allowDifferentTeachers]);
 
   const handleSlotToggle = (slots, adding, label = slots.join("+")) => {
     setSelectedSlotGroups((current) => {
@@ -445,12 +500,14 @@ function App() {
     setSubjectCode(code);
     const subject = allSubjects.find((s) => s.code === code);
     setSubjectType(subject?.type === "theory" ? "theory" : "theory_lab");
+    setAllowDifferentTeachers(false);
     setSelectedTheoryFacultyIds([]);
     setSelectedLabFacultyIds([]);
   };
 
   const changeSubjectType = (type) => {
     setSubjectType(type);
+    setAllowDifferentTeachers(false);
     setSelectedTheoryFacultyIds([]);
     setSelectedLabFacultyIds([]);
     setResults([]);
@@ -480,7 +537,8 @@ function App() {
       selectedTheoryFacultyIds,
       selectedSlots,
       subjectType,
-      selectedLabFacultyIds
+      selectedLabFacultyIds,
+      allowDifferentTeachers
     );
     if (!options.length) {
       setMessage("No selected faculty fit within your chosen slots.");
@@ -552,13 +610,27 @@ function App() {
     );
   };
 
+  const jumpToStep = (idx) => {
+    const refs = [slotsPanelRef, coursePanelRef, resultsPanelRef];
+    const el = refs[idx]?.current;
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
     <main className="app-shell" id="app" ref={appRef}>
-      <section className="panel timetable-panel">
+      <StepOverview
+        slotsCount={selectedSlotGroups.length}
+        coursesCount={selectedSubjects.length}
+        hasResults={results.length > 0}
+        onJump={jumpToStep}
+      />
+
+      <section className="panel timetable-panel" ref={slotsPanelRef}>
         <div className="panel-header">
           <div>
             <p className="eyebrow">Step 01</p>
             <h2>Select Slots</h2>
+            <p className="step-hint">Click a time slot below to mark when you're free. Theory slots are blue, lab slots are green.</p>
           </div>
           <button className="ghost-button" type="button" onClick={resetSlots}>Reset Slots</button>
         </div>
@@ -617,9 +689,13 @@ function App() {
         </div>
       </section>
 
-      <section className="config-grid">
+      <section className="config-grid" ref={coursePanelRef}>
         <section className="panel course-config-panel">
-          <h1 className="panel-title">Course Configuration</h1>
+        <div className="panel-header-inner">
+        <p className="eyebrow">Step 02</p>
+        <h2>Configure Course</h2>
+        <p className="step-hint">Pick your school, subject, and faculty — then click Add Course.</p>
+          </div>
 
           <label className="field">
             <span>Subject Domain</span>
@@ -659,6 +735,22 @@ function App() {
             </select>
           </label>
 
+          {needsLab && (
+            <div className="field toggle-field">
+              <span>Allow different teacher for theory &amp; lab</span>
+              <button
+                type="button"
+                className={`toggle-button${allowDifferentTeachers ? " toggle-on" : " toggle-off"}`}
+                onClick={() => setAllowDifferentTeachers((prev) => !prev)}
+              >
+                <span className="toggle-track">
+                  <span className="toggle-thumb" />
+                </span>
+                <span className="toggle-label">{allowDifferentTeachers ? "On" : "Off"}</span>
+              </button>
+            </div>
+          )}
+
           <FacultyChecklist
             title="Faculty (Theory)"
             faculty={theoryFaculty}
@@ -682,6 +774,9 @@ function App() {
 
           <p className="hint">
             {validFacultyPreview.length} option(s) match your selected slots.
+            {needsLab && !allowDifferentTeachers && validFacultyPreview.length === 0 && selectedTheoryFacultyIds.length > 0 && selectedLabFacultyIds.length > 0 && (
+              <span className="hint-warn"> No teacher handles both theory and lab. Try turning on <em>Allow different teacher</em>.</span>
+            )}
           </p>
 
           <button className="primary-button" type="button" onClick={addSubject}>
@@ -690,10 +785,13 @@ function App() {
         </section>
 
         <section className="panel selected-courses-panel">
-          <div className="panel-header">
-            <h2 className="panel-title">Selected Courses</h2>
-            <button className="ghost-button" type="button" onClick={resetCourses}>Reset</button>
-          </div>
+  <div className="panel-header">
+    <div>
+      <p className="eyebrow">Step 03</p>
+      <h2>Selected Courses</h2>
+    </div>
+    <button className="ghost-button" type="button" onClick={resetCourses}>Reset</button>
+  </div>
 
           <div className="selected-course-list">
             {selectedSubjects.length ? selectedSubjects.map((subject) => (
@@ -749,7 +847,7 @@ function App() {
         </section>
       </section>
 
-      <section className="panel results-panel">
+      <section className="panel results-panel" ref={resultsPanelRef}>
         <div className="panel-header">
           <div>
             <p className="eyebrow">Output</p>
@@ -862,7 +960,7 @@ function App() {
             ))}
           </div>
         ) : (
-          <p className="empty-text results-empty">Generated timetables will appear here after you click Generate.</p>
+         <p className="results-empty-bold">Generated timetables will appear here after you click <strong>Generate</strong>.</p>
         )}
       </section>
     </main>

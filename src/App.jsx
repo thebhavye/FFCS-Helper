@@ -1,4 +1,5 @@
 import React, { Fragment, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { schools } from "./data/schools.js";
 import {
   conflictsWithSelection,
@@ -1152,6 +1153,7 @@ function App() {
          <p className="results-empty-bold">Generated timetables will appear here after you click <strong>Generate</strong>.</p>
         )}
       </section>
+      <Analytics />
     </main>
   );
 }
